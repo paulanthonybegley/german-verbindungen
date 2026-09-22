@@ -1,0 +1,1034 @@
+{
+ "source": {
+  "title": "Deutsch lernen B1 B2 C1 | 5.000 deutsche Wortverbindungen für natürliches Deutsch",
+  "channel": "Einfach deutsch, easy deutsch.",
+  "url": "https://www.youtube.com/watch?v=2tygr202mYI",
+  "duration_s": 3100
+ },
+ "categories": [
+  {
+   "id": 1,
+   "slug": "01-alltag-wohnen",
+   "emoji": "🛏️",
+   "title": "Alltag & Wohnen",
+   "titleEn": "Everyday Life & Living",
+   "file": "cat1.json",
+   "verbs": 18,
+   "description": "Fragen stellen, Antworten geben, Entscheidungen treffen - die alltäglichen Wortverbindungen rund ums Leben und Wohnen."
+  },
+  {
+   "id": 2,
+   "slug": "02-kommunikation-gefuehle",
+   "emoji": "💬",
+   "title": "Kommunikation & Gefühle",
+   "titleEn": "Communication & Feelings",
+   "file": "cat2.json",
+   "verbs": 20,
+   "description": "Ein Gespräch führen, Komplimente machen, Rücksicht nehmen - die Wortverbindungen der Begegnung."
+  },
+  {
+   "id": 3,
+   "slug": "03-arbeit-aufgaben",
+   "emoji": "💼",
+   "title": "Arbeit & Aufgaben",
+   "titleEn": "Work & Tasks",
+   "file": "cat3.json",
+   "verbs": 20,
+   "description": "Aufgaben erledigen, Aufträge übernehmen, Termine vereinbaren - die Sprache des Berufs."
+  },
+  {
+   "id": 4,
+   "slug": "04-bewegung-aktivitaeten",
+   "emoji": "🏃",
+   "title": "Bewegung & Aktivitäten",
+   "titleEn": "Movement & Activities",
+   "file": "cat4.json",
+   "verbs": 16,
+   "description": "Spaziergänge machen, Sport treiben, Touren buchen - die Sprache des Körpers und der Freizeit."
+  },
+  {
+   "id": 5,
+   "slug": "05-denken-entscheiden",
+   "emoji": "🧠",
+   "title": "Denken & Entscheiden",
+   "titleEn": "Thinking & Deciding",
+   "file": "cat5.json",
+   "verbs": 11,
+   "description": "Überlegungen anstellen, Schlüsse ziehen, Entscheidungen fällen - die Sprache des Geistes."
+  },
+  {
+   "id": 6,
+   "slug": "06-beziehungen-soziales-leben",
+   "emoji": "🤝",
+   "title": "Beziehungen & soziales Leben",
+   "titleEn": "Relationships & Social Life",
+   "file": "cat6.json",
+   "verbs": 20,
+   "description": "Kontakt aufnehmen, Komplimente machen, Rücksicht nehmen - die Sprache der Verbindungen."
+  },
+  {
+   "id": 7,
+   "slug": "07-finale",
+   "emoji": "🏁",
+   "title": "Das große Finale",
+   "titleEn": "The Grand Finale",
+   "file": "cat7.json",
+   "verbs": 14,
+   "description": "Die wichtigsten Wortverbindungen aus allen sieben Modulen - das große Abschlussfinale."
+  }
+ ],
+ "verbindungen": [
+  {
+   "v": "eine Frage stellen",
+   "en": "to ask a question",
+   "meaning": "eine Frage formulieren und die Antwort verlangen.",
+   "example": "Ich stelle dir eine Frage.",
+   "natural": "Darf ich Ihnen eine persönliche Frage stellen – oder haben Sie gerade keine Zeit?",
+   "grammar": "Nomen-Verb-Verbindung · eine Frage + stellen · Perfekt: ich habe gestellt"
+  },
+  {
+   "v": "eine Antwort geben",
+   "en": "to give an answer",
+   "meaning": "auf eine Frage antworten.",
+   "example": "Gib mir bitte eine Antwort!",
+   "natural": "Er hat mir noch immer keine Antwort gegeben, obwohl ich ihm schon gestern per E-Mail geschrieben habe.",
+   "grammar": "Nomen-Verb-Verbindung · eine Antwort + geben · starkes Verb"
+  },
+  {
+   "v": "eine Entscheidung treffen",
+   "en": "to make a decision",
+   "meaning": "selbst bestimmen, was als Nächstes passieren soll.",
+   "example": "Ich muss heute eine Entscheidung treffen.",
+   "natural": "Man sollte eine wichtige Entscheidung nicht überstürzen – nimm dir Zeit und wäge alle Vor- und Nachteile ab.",
+   "grammar": "Nomen-Verb-Verbindung · eine Entscheidung + treffen · starkes Verb"
+  },
+  {
+   "v": "einen Fehler machen",
+   "en": "to make a mistake",
+   "meaning": "etwas falsch machen.",
+   "example": "Ich habe einen Fehler gemacht.",
+   "natural": "Jeder macht mal einen Fehler – wichtig ist, dass du ihn erkennst und es beim nächsten Mal besser machst.",
+   "grammar": "Nomen-Verb-Verbindung · einen Fehler + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "Rücksicht nehmen",
+   "en": "to show consideration",
+   "meaning": "auf die Bedürfnisse anderer achten.",
+   "example": "Nimm bitte Rücksicht auf deine Nachbarn!",
+   "natural": "In einer WG muss man aufeinander Rücksicht nehmen, sonst gibt es schnell Streit.",
+   "grammar": "Nomen-Verb-Verbindung ohne Artikel · Rücksicht + nehmen · feste Präposition: auf + Akkusativ"
+  },
+  {
+   "v": "einen Termin vereinbaren",
+   "en": "to arrange an appointment",
+   "meaning": "einen Zeitpunkt für ein Gespräch oder Treffen festlegen.",
+   "example": "Ich möchte einen Termin vereinbaren.",
+   "natural": "Können wir für nächste Woche einen Termin vereinbaren? Mir persönlich würde der Donnerstagnachmittag am besten passen.",
+   "grammar": "Nomen-Verb-Verbindung · einen Termin + vereinbaren · trennbar"
+  },
+  {
+   "v": "einen Vertrag unterschreiben",
+   "en": "to sign a contract",
+   "meaning": "den Vertrag mit seiner Unterschrift bestätigen.",
+   "example": "Ich muss den Vertrag noch unterschreiben.",
+   "natural": "Bevor du den Vertrag unterschreibst, solltest du das Kleingedruckte ganz genau lesen.",
+   "grammar": "Nomen-Verb-Verbindung · einen Vertrag + unterschreiben · trennbar"
+  },
+  {
+   "v": "eine Rolle spielen",
+   "en": "to play a role",
+   "meaning": "wichtig sein / Einfluss haben.",
+   "example": "Das spielt für mich keine Rolle.",
+   "natural": "Bei der Entscheidung solltest du nicht nur das Geld eine Rolle spielen lassen, sondern auch die Arbeitszeit.",
+   "grammar": "Nomen-Verb-Verbindung · eine Rolle + spielen · feste Präposition: für + Akkusativ"
+  },
+  {
+   "v": "Fragen stellen",
+   "en": "to ask questions",
+   "meaning": "mehrere Fragen nacheinander stellen.",
+   "example": "Die Kinder stellen immer so viele Fragen.",
+   "natural": "In einem Vorstellungsgespräch solltest du am Ende selbst Fragen stellen, denn das zeigt echtes Interesse.",
+   "grammar": "Nomen-Verb-Verbindung im Plural · Fragen (Pl.) + stellen"
+  },
+  {
+   "v": "einen Anruf tätigen",
+   "en": "to make a phone call",
+   "meaning": "jemanden anrufen (formell).",
+   "example": "Ich muss noch einen Anruf tätigen.",
+   "natural": "Ich tätige gleich einen Anruf bei der Bank, um den Kontostand zu klären.",
+   "grammar": "Nomen-Verb-Verbindung · einen Anruf + tätigen · formell"
+  },
+  {
+   "v": "eine E-Mail schreiben",
+   "en": "to write an email",
+   "meaning": "eine E-Mail verfassen und absenden.",
+   "example": "Ich schreibe dir eine E-Mail.",
+   "natural": "Ich schreibe dir gleich eine E-Mail mit allen Details, dann hast du alles schwarz auf weiß.",
+   "grammar": "Nomen-Verb-Verbindung · eine E-Mail + schreiben · Perfekt: ich habe geschrieben"
+  },
+  {
+   "v": "ein Interview führen",
+   "en": "to conduct an interview",
+   "meaning": "ein Interview leiten und Fragen stellen.",
+   "example": "Sie führt heute ein Interview.",
+   "natural": "Die Journalistin führt ein Interview mit dem Minister, anschließend wird es im Radio gesendet.",
+   "grammar": "Nomen-Verb-Verbindung · ein Interview + führen · Perfekt: ich habe geführt"
+  },
+  {
+   "v": "Kontakt aufnehmen",
+   "en": "to get in touch / make contact",
+   "meaning": "eine Verbindung zu jemandem herstellen.",
+   "example": "Ich nehme morgen Kontakt mit dir auf.",
+   "natural": "Wenn Sie Fragen haben, nehmen Sie einfach Kontakt mit unserem Kundenservice auf – wir sind rund um die Uhr erreichbar.",
+   "grammar": "Nomen-Verb-Verbindung ohne Artikel · Kontakt + aufnehmen · trennbar"
+  },
+  {
+   "v": "eine Auskunft geben",
+   "en": "to give information",
+   "meaning": "eine Information mitteilen (formell).",
+   "example": "Können Sie mir eine Auskunft geben?",
+   "natural": "Die Dame am Schalter hat mir eine freundliche Auskunft gegeben – die Öffnungszeiten stimmen.",
+   "grammar": "Nomen-Verb-Verbindung · eine Auskunft + geben · Präteritum: ich gab"
+  },
+  {
+   "v": "eine Pause machen",
+   "en": "to take a break",
+   "meaning": "für kurze Zeit aufhören zu arbeiten.",
+   "example": "Lass uns eine Pause machen!",
+   "natural": "Wir sollten wirklich eine kurze Pause machen, sonst wird die Konzentration am Nachmittag zu schlecht.",
+   "grammar": "Nomen-Verb-Verbindung · eine Pause + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "einen Plan aufstellen",
+   "en": "to draw up a plan",
+   "meaning": "einen Plan erstellen.",
+   "example": "Wir stellen jetzt einen Plan auf.",
+   "natural": "Bevor wir die Reise buchen, sollten wir einen genauen Plan aufstellen – sonst wird es ein Chaos.",
+   "grammar": "Nomen-Verb-Verbindung · einen Plan + aufstellen · trennbar"
+  },
+  {
+   "v": "eine Aufgabe übernehmen",
+   "en": "to take on a task",
+   "meaning": "eine Aufgabe selbst machen.",
+   "example": "Ich übernehme diese Aufgabe.",
+   "natural": "Kannst du die Aufgabe übernehmen, während ich im Urlaub bin? Die Unterlagen findest du auf dem Schreibtisch.",
+   "grammar": "Nomen-Verb-Verbindung · eine Aufgabe + übernehmen · starkes Verb"
+  },
+  {
+   "v": "eine Entscheidung fällen",
+   "en": "to reach a decision (formal)",
+   "meaning": "eine endgültige Entscheidung treffen (formell).",
+   "example": "Das Gericht fällt ein Urteil.",
+   "natural": "Die Jury wurde gebeten, endlich eine Entscheidung zu fällen, damit der Wettbewerb weitergehen kann.",
+   "grammar": "Nomen-Verb-Verbindung · eine Entscheidung + fällen · formell, meist Gericht/Jury"
+  },
+  {
+   "v": "ein Gespräch führen",
+   "en": "to have a conversation",
+   "meaning": "ein Gespräch mit jemandem führen.",
+   "example": "Wir führen ein Gespräch.",
+   "natural": "Ich habe gestern ein langes Gespräch mit meinem Kollegen geführt – es ging hauptsächlich um das neue Projekt.",
+   "grammar": "Nomen-Verb-Verbindung · ein Gespräch + führen · Perfekt: ich habe geführt"
+  },
+  {
+   "v": "einen Fehler machen",
+   "en": "to make a mistake",
+   "meaning": "etwas falsch machen.",
+   "example": "Ich habe einen Fehler gemacht.",
+   "natural": "Jeder macht mal einen Fehler – wichtig ist, dass du daraus lernst.",
+   "grammar": "Nomen-Verb-Verbindung · einen Fehler + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "eine Entscheidung treffen",
+   "en": "to make a decision",
+   "meaning": "selbst bestimmen, was als Nächstes passieren soll.",
+   "example": "Ich treffe morgen eine Entscheidung.",
+   "natural": "Man sollte eine Entscheidung nicht überstürzen – wäge lieber alle Vor- und Nachteile ab.",
+   "grammar": "Nomen-Verb-Verbindung · eine Entscheidung + treffen · starkes Verb"
+  },
+  {
+   "v": "einen Termin vereinbaren",
+   "en": "to arrange an appointment",
+   "meaning": "einen Zeitpunkt für ein Treffen festlegen.",
+   "example": "Ich vereinbare einen Termin.",
+   "natural": "Können wir für nächste Woche einen Termin vereinbaren? Mir würde der Dienstag passen.",
+   "grammar": "Nomen-Verb-Verbindung · einen Termin + vereinbaren · Perfekt: ich habe vereinbart"
+  },
+  {
+   "v": "eine Frage stellen",
+   "en": "to ask a question",
+   "meaning": "eine Frage formulieren und an jemanden richten.",
+   "example": "Ich stelle dir eine Frage.",
+   "natural": "Darf ich Ihnen eine persönliche Frage stellen? Sie müssen sie natürlich nicht beantworten.",
+   "grammar": "Nomen-Verb-Verbindung · eine Frage + stellen · Perfekt: ich habe gestellt"
+  },
+  {
+   "v": "eine Auskunft geben",
+   "en": "to give information",
+   "meaning": "eine Information mitteilen.",
+   "example": "Können Sie mir eine Auskunft geben?",
+   "natural": "Die Dame am Schalter hat mir freundlich eine Auskunft gegeben.",
+   "grammar": "Nomen-Verb-Verbindung · eine Auskunft + geben · Perfekt: ich habe gegeben"
+  },
+  {
+   "v": "Rücksicht nehmen",
+   "en": "to show consideration",
+   "meaning": "auf die Bedürfnisse anderer achten.",
+   "example": "Nimm bitte Rücksicht auf deine Nachbarn!",
+   "natural": "In einer WG muss man immer Rücksicht aufeinander nehmen, sonst gibt es schnell Streit.",
+   "grammar": "Nomen-Verb-Verbindung · Rücksicht + nehmen · feste Präposition: auf + Akkusativ"
+  },
+  {
+   "v": "einen Anruf tätigen",
+   "en": "to make a phone call",
+   "meaning": "jemanden anrufen (formell).",
+   "example": "Ich tätige gleich einen Anruf.",
+   "natural": "Ich muss noch einen Anruf bei der Bank tätigen, um das Konto zu klären.",
+   "grammar": "Nomen-Verb-Verbindung · einen Anruf + tätigen · formell"
+  },
+  {
+   "v": "eine E-Mail schreiben",
+   "en": "to write an email",
+   "meaning": "eine E-Mail verfassen und abschicken.",
+   "example": "Ich schreibe dir eine E-Mail.",
+   "natural": "Ich schreibe dir gleich eine E-Mail mit allen Details zu der Frage.",
+   "grammar": "Nomen-Verb-Verbindung · eine E-Mail + schreiben · Perfekt: ich habe geschrieben"
+  },
+  {
+   "v": "ein Interview führen",
+   "en": "to conduct an interview",
+   "meaning": "ein Interview leiten und Fragen stellen.",
+   "example": "Sie führt heute ein Interview.",
+   "natural": "Die Journalistin führt ein Interview mit dem Bürgermeister über die Verkehrsplanung.",
+   "grammar": "Nomen-Verb-Verbindung · ein Interview + führen · Perfekt: ich habe geführt"
+  },
+  {
+   "v": "Kontakt aufnehmen",
+   "en": "to get in touch",
+   "meaning": "eine Verbindung zu jemandem herstellen.",
+   "example": "Ich nehme Kontakt mit dir auf.",
+   "natural": "Wenn Sie Fragen haben, nehmen Sie einfach Kontakt mit uns auf – wir antworten innerhalb von 24 Stunden.",
+   "grammar": "Nomen-Verb-Verbindung · Kontakt + aufnehmen · trennbar"
+  },
+  {
+   "v": "einen Vertrag unterschreiben",
+   "en": "to sign a contract",
+   "meaning": "den Vertrag mit seiner Unterschrift bestätigen.",
+   "example": "Ich unterschreibe den Vertrag morgen.",
+   "natural": "Bevor du den Vertrag unterschreibst, solltest du das Kleingedruckte lesen.",
+   "grammar": "Nomen-Verb-Verbindung · einen Vertrag + unterschreiben · trennbar"
+  },
+  {
+   "v": "eine Rolle spielen",
+   "en": "to play a role / matter",
+   "meaning": "wichtig sein, Einfluss haben.",
+   "example": "Das spielt für mich keine Rolle.",
+   "natural": "Bei der Entscheidung spielte das Gehalt eine große Rolle – aber auch die Arbeitszeiten waren wichtig.",
+   "grammar": "Nomen-Verb-Verbindung · eine Rolle + spielen · Perfekt: ich habe gespielt"
+  },
+  {
+   "v": "eine Aufgabe übernehmen",
+   "en": "to take on a task",
+   "meaning": "eine Aufgabe selbst übernehmen.",
+   "example": "Ich übernehme diese Aufgabe.",
+   "natural": "Kannst du eine Aufgabe für das Projekt übernehmen, solange ich im Urlaub bin?",
+   "grammar": "Nomen-Verb-Verbindung · eine Aufgabe + übernehmen · starkes Verb"
+  },
+  {
+   "v": "ein Kompliment machen",
+   "en": "to pay a compliment",
+   "meaning": "jdm sagen, dass etwas gut ist.",
+   "example": "Ich mache dir ein Kompliment.",
+   "natural": "Er hat mir ein Kompliment gemacht – er fand meine Präsentation richtig stark.",
+   "grammar": "Nomen-Verb-Verbindung · ein Kompliment + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "eine Erklärung geben",
+   "en": "to give an explanation",
+   "meaning": "etwas verständlich erklären.",
+   "example": "Der Lehrer gibt eine Erklärung.",
+   "natural": "Können Sie mir eine Erklärung geben, warum die Software nicht funktioniert?",
+   "grammar": "Nomen-Verb-Verbindung · eine Erklärung + geben · Perfekt: ich habe gegeben"
+  },
+  {
+   "v": "ein Treffen organisieren",
+   "en": "to organize a meeting",
+   "meaning": "ein Treffen planen und vorbereiten.",
+   "example": "Wir organisieren ein Treffen.",
+   "natural": "Ich organisiere nächste Woche ein Treffen mit allen Teammitgliedern.",
+   "grammar": "Nomen-Verb-Verbindung · ein Treffen + organisieren · unregelmäßig"
+  },
+  {
+   "v": "einen Vorschlag machen",
+   "en": "to make a suggestion",
+   "meaning": "eine Idee vorschlagen.",
+   "example": "Ich mache einen Vorschlag.",
+   "natural": "Darf ich einen Vorschlag machen? Wir treffen uns besser im Café als im Büro.",
+   "grammar": "Nomen-Verb-Verbindung · einen Vorschlag + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "eine Beziehung führen / aufbauen",
+   "en": "to have / build a relationship",
+   "meaning": "eine Beziehung zu jemandem haben oder beginnen.",
+   "example": "Wir führen eine gute Beziehung.",
+   "natural": "Eine vertrauensvolle Beziehung zum Kunden aufzubauen braucht Zeit, lohnt sich aber immer.",
+   "grammar": "Nomen-Verb-Verbindung · eine Beziehung + führen · oder + aufbauen"
+  },
+  {
+   "v": "einen Unterschied machen",
+   "en": "to make a difference",
+   "meaning": "einen Einfluss/eine Veränderung bewirken.",
+   "example": "Das macht einen Unterschied.",
+   "natural": "Wenn jeder ein bisschen spart, macht das am Ende einen großen Unterschied für das Klima.",
+   "grammar": "Nomen-Verb-Verbindung · einen Unterschied + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "eine Aufgabe erledigen",
+   "en": "to complete a task",
+   "meaning": "eine Aufgabe ganz zu Ende bringen.",
+   "example": "Ich erledige die Aufgabe morgen.",
+   "natural": "Kannst du die Aufgabe bis zum Mittag erledigen? Der Kunde wartet schon auf die Lösung.",
+   "grammar": "Nomen-Verb-Verbindung · eine Aufgabe + erledigen · Perfekt: ich habe erledigt"
+  },
+  {
+   "v": "einen Auftrag annehmen",
+   "en": "to accept an order",
+   "meaning": "einen Auftrag übernehmen.",
+   "example": "Ich nehme den Auftrag an.",
+   "natural": "Wir nehmen den Auftrag nur dann an, wenn die Lieferzeit passt – sonst sagen wir höflich ab.",
+   "grammar": "Nomen-Verb-Verbindung · einen Auftrag + annehmen · starkes Verb"
+  },
+  {
+   "v": "einen Auftrag ablehnen",
+   "en": "to decline/reject an order",
+   "meaning": "einen Auftrag nicht übernehmen.",
+   "example": "Ich lehne den Auftrag ab.",
+   "natural": "Der Lieferant hat den Auftrag abgelehnt, weil die Materialkosten zu stark gestiegen sind.",
+   "grammar": "Nomen-Verb-Verbindung · einen Auftrag + ablehnen · trennbar"
+  },
+  {
+   "v": "einen Bericht schreiben",
+   "en": "to write a report",
+   "meaning": "einen Bericht verfassen.",
+   "example": "Ich schreibe den Bericht heute Abend.",
+   "natural": "Ich schreibe am Ende der Woche einen kurzen Bericht über den Projektstand – alle Zahlen findest du dort.",
+   "grammar": "Nomen-Verb-Verbindung · einen Bericht + schreiben · Perfekt: ich habe geschrieben"
+  },
+  {
+   "v": "Verantwortung übernehmen",
+   "en": "to take responsibility",
+   "meaning": "selbst für etwas verantwortlich sein.",
+   "example": "Ich übernehme die Verantwortung.",
+   "natural": "Wenn du die Verantwortung für das Projekt übernimmst, musst du auch bei Problemen zu deiner Entscheidung stehen.",
+   "grammar": "Nomen-Verb-Verbindung · Verantwortung + übernehmen · starkes Verb"
+  },
+  {
+   "v": "eine Leistung erbringen",
+   "en": "to deliver a performance",
+   "meaning": "eine Leistung vollbringen.",
+   "example": "Das Team erbringt eine gute Leistung.",
+   "natural": "Der neue Mitarbeiter hat eine bemerkenswerte Leistung erbracht – schon im ersten Monat übertraf er alle Erwartungen.",
+   "grammar": "Nomen-Verb-Verbindung · eine Leistung + erbringen · formell · starkes Verb"
+  },
+  {
+   "v": "ein Angebot machen",
+   "en": "to make an offer",
+   "meaning": "ein Angebot unterbreiten.",
+   "example": "Wir machen dir ein Angebot.",
+   "natural": "Wir machen Ihnen ein Angebot über zwölf Monate Laufzeit – inklusive Wartung und Support.",
+   "grammar": "Nomen-Verb-Verbindung · ein Angebot + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "eine Prüfung bestehen",
+   "en": "to pass an exam",
+   "meaning": "eine Prüfung erfolgreich abschließen.",
+   "example": "Ich bestehe die Prüfung.",
+   "natural": "Wenn du die Prüfung bestehen willst, musst du regelmäßig üben – nicht nur zwei Wochen vorher.",
+   "grammar": "Nomen-Verb-Verbindung · eine Prüfung + bestehen · starkes Verb"
+  },
+  {
+   "v": "eine Stelle anbieten",
+   "en": "to offer a position",
+   "meaning": "eine Stelle ausschreiben und bewerbbar machen.",
+   "example": "Die Firma bietet eine neue Stelle an.",
+   "natural": "Das Unternehmen bietet eine Stelle im Bereich Vertrieb an – die Bewerbungsfrist endet am Freitag.",
+   "grammar": "Nomen-Verb-Verbindung · eine Stelle + anbieten · Perfekt: ich habe angeboten"
+  },
+  {
+   "v": "eine Bewerbung schicken",
+   "en": "to send an application",
+   "meaning": "eine Bewerbung absenden.",
+   "example": "Ich schicke meine Bewerbung heute.",
+   "natural": "Falls du dich bewerben willst, schicke deine Bewerbung am besten mit PDF-Anhang – das erleichtert uns die Auswahl.",
+   "grammar": "Nomen-Verb-Verbindung · eine Bewerbung + schicken · Perfekt: ich habe geschickt"
+  },
+  {
+   "v": "einen Lohn auszahlen",
+   "en": "to pay out a salary",
+   "meaning": "den Lohn überweisen.",
+   "example": "Die Firma zahlt den Lohn pünktlich aus.",
+   "natural": "Der Arbeitgeber zahlt den Lohn immer am letzten Werktag des Monats aus – diesmal fällt er auf einen Freitag.",
+   "grammar": "Nomen-Verb-Verbindung · einen Lohn + auszahlen · trennbar"
+  },
+  {
+   "v": "eine Besprechung halten",
+   "en": "to hold a meeting",
+   "meaning": "eine Besprechung abhalten.",
+   "example": "Wir halten heute eine Besprechung.",
+   "natural": "Der Chef hält jeden Montagmorgen eine kurze Besprechung, damit alle das Ziel der Woche kennen.",
+   "grammar": "Nomen-Verb-Verbindung · eine Besprechung + halten · starkes Verb"
+  },
+  {
+   "v": "ein Ziel erreichen",
+   "en": "to reach a goal",
+   "meaning": "ein Ziel erfolgreich erreichen.",
+   "example": "Wir haben unser Ziel erreicht.",
+   "natural": "Wenn du das Ziel erreichen willst, musst du dir kleine Zwischenziele setzen – so bleibst du motiviert.",
+   "grammar": "Nomen-Verb-Verbindung · ein Ziel + erreichen · Perfekt: ich habe erreicht"
+  },
+  {
+   "v": "eine Schwierigkeit überwinden",
+   "en": "to overcome a difficulty",
+   "meaning": "eine Schwierigkeit bewältigen.",
+   "example": "Wir überwinden diese Schwierigkeit.",
+   "natural": "Jedes Team muss diese Schwierigkeit überwinden – danach ist die Zusammenarbeit deutlich besser.",
+   "grammar": "Nomen-Verb-Verbindung · eine Schwierigkeit + überwinden · starkes Verb"
+  },
+  {
+   "v": "eine Frist einhalten",
+   "en": "to meet a deadline",
+   "meaning": "die Frist nicht überschreiten.",
+   "example": "Bitte halte die Frist ein!",
+   "natural": "Wir können die Frist nur dann einhalten, wenn alle ihre Zwischenergebnisse pünktlich abgeben.",
+   "grammar": "Nomen-Verb-Verbindung · eine Frist + einhalten · starkes Verb"
+  },
+  {
+   "v": "einen Druck ausüben",
+   "en": "to exert pressure",
+   "meaning": "Druck auf jemanden ausüben.",
+   "example": "Er übt großen Druck auf mich aus.",
+   "natural": "Der Kunde übt Druck auf uns aus, weil er die Lieferung unbedingt vor dem Feiertag braucht.",
+   "grammar": "Nomen-Verb-Verbindung · Druck + ausüben · feste Präposition: auf + Akkusativ"
+  },
+  {
+   "v": "eine Verbesserung vorschlagen",
+   "en": "to suggest an improvement",
+   "meaning": "eine Verbesserung vorschlagen.",
+   "example": "Ich schlage eine Verbesserung vor.",
+   "natural": "Ich möchte eine Verbesserung vorschlagen: wir sollten die wöchentliche Besprechung um fünfzehn Minuten kürzen.",
+   "grammar": "Nomen-Verb-Verbindung · eine Verbesserung + vorschlagen · trennbar"
+  },
+  {
+   "v": "Rechenschaft ablegen",
+   "en": "to give an account / account for",
+   "meaning": "über seine Handlungen berichten.",
+   "example": "Er legt Rechenschaft über seine Entscheidungen ab.",
+   "natural": "Der Projektleiter muss Rechenschaft über die Ausgaben ablegen, bevor das Budget freigegeben wird.",
+   "grammar": "Nomen-Verb-Verbindung · Rechenschaft + ablegen · formell · trennbar"
+  },
+  {
+   "v": "eine Karriere machen",
+   "en": "to make a career",
+   "meaning": "beruflich aufsteigen.",
+   "example": "Sie macht eine tolle Karriere.",
+   "natural": "Wenn du eine Karriere in der IT machen willst, sind ständiges Lernen und praktische Projekte wirklich entscheidend.",
+   "grammar": "Nomen-Verb-Verbindung · eine Karriere + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "in Rente gehen",
+   "en": "to retire",
+   "meaning": "in den Ruhestand treten.",
+   "example": "Mein Vater geht nächstes Jahr in Rente.",
+   "natural": "Nach vierzig Jahren Arbeit geht er endlich in Rente – und plant jetzt eine lange Reise durch Südamerika.",
+   "grammar": "Nomen-Verb-Verbindung · in Rente + gehen · feste Präposition: in + Akkusativ"
+  },
+  {
+   "v": "einen Spaziergang machen",
+   "en": "to go for a walk",
+   "meaning": "kurz im Freien wandern, ohne festes Ziel.",
+   "example": "Ich mache einen Spaziergang.",
+   "natural": "Nach dem langen Bürotag mache ich immer einen Spaziergang am Fluss – das hilft mir, den Kopf freizubekommen.",
+   "grammar": "Nomen-Verb-Verbindung · einen Spaziergang + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "Sport treiben",
+   "en": "to do sports",
+   "meaning": "regelmäßig trainieren und sich bewegen.",
+   "example": "Ich treibe zweimal pro Woche Sport.",
+   "natural": "Um fit zu bleiben, treibe ich am Wochenende Sport – Joggen und Schwimmen sind meine Favoriten.",
+   "grammar": "Nomen-Verb-Verbindung · Sport + treiben · starkes Verb"
+  },
+  {
+   "v": "einen Ausflug machen",
+   "en": "to go on a trip",
+   "meaning": "einen Tagesausflug unternehmen.",
+   "example": "Wir machen am Sonntag einen Ausflug.",
+   "natural": "Am Samstag machen wir einen Ausflug in die Berge – pack ruhig die Wanderstiefel ein.",
+   "grammar": "Nomen-Verb-Verbindung · einen Ausflug + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "eine Tour buchen",
+   "en": "to book a tour",
+   "meaning": "eine geführte Tour reservieren.",
+   "example": "Ich buche eine Tour durch die Stadt.",
+   "natural": "Wir haben eine Tour durch das alte Stadtviertel gebucht – die Führung dauert zwei Stunden und lohnt sich wirklich.",
+   "grammar": "Nomen-Verb-Verbindung · eine Tour + buchen · Perfekt: ich habe gebucht"
+  },
+  {
+   "v": "an einer Tour teilnehmen",
+   "en": "to take part in a tour",
+   "meaning": "bei einer Führung dabei sein.",
+   "example": "Wir nehmen an der Tour teil.",
+   "natural": "Die ganze Gruppe nimmt an der Tour durch die Altstadt teil – treffpunkt ist vor dem Rathaus.",
+   "grammar": "Nomen-Verb-Verbindung · an einer Tour + teilnehmen · feste Präposition: an + Dativ"
+  },
+  {
+   "v": "einen Plan umsetzen",
+   "en": "to implement a plan",
+   "meaning": "einen Plan in die Tat umsetzen.",
+   "example": "Wir setzen den Plan jetzt um.",
+   "natural": "Es reicht nicht, einen Plan zu machen – du musst ihn auch konsequent umsetzen, sonst bleibt alles Theorie.",
+   "grammar": "Nomen-Verb-Verbindung · einen Plan + umsetzen · trennbar"
+  },
+  {
+   "v": "einen Versuch unternehmen",
+   "en": "to make an attempt",
+   "meaning": "etwas versuchen.",
+   "example": "Ich unternehme einen Versuch.",
+   "natural": "Wir unternehmen an diesem Wochenende einen neuen Versuch mit dem Gipfel – beim letzten Mal war das Wetter zu schlecht.",
+   "grammar": "Nomen-Verb-Verbindung · einen Versuch + unternehmen · starkes Verb"
+  },
+  {
+   "v": "in Bewegung bleiben",
+   "en": "to stay active / keep moving",
+   "meaning": "aktiv bleiben und sich weiterbewegen.",
+   "example": "Bleib bitte in Bewegung!",
+   "natural": "Auch im Homeoffice solltest du tagsüber in Bewegung bleiben – jede Stunde ein paar Schritte machen reicht schon.",
+   "grammar": "Nomen-Verb-Verbindung · in Bewegung + bleiben · feste Präposition: in + Dativ"
+  },
+  {
+   "v": "eine Pause einlegen",
+   "en": "to take a break",
+   "meaning": "bewusst eine Pause machen.",
+   "example": "Wir legen eine Pause ein.",
+   "natural": "Vor dem Vortrag lege ich immer eine kurze Pause ein, um mich zu sammeln – sonst bin ich zu aufgeregt.",
+   "grammar": "Nomen-Verb-Verbindung · eine Pause + einlegen · trennbar"
+  },
+  {
+   "v": "den Weg kennen",
+   "en": "to know the way",
+   "meaning": "wissen, wie man irgendwohin kommt.",
+   "example": "Ich kenne den Weg.",
+   "natural": "Keine Sorge, ich kenne den Weg zur Haltestelle ganz genau – ich gehe hier jeden Tag entlang.",
+   "grammar": "Nomen-Verb-Verbindung · den Weg + kennen · Perfekt: ich habe gekannt"
+  },
+  {
+   "v": "eine Runde drehen",
+   "en": "to do a lap / take a turn",
+   "meaning": "eine Runde laufen oder fahren.",
+   "example": "Wir drehen noch eine Runde.",
+   "natural": "Vor dem Frühstück drehen wir noch eine Runde um den See – danach haben wir einen Wahnsinnsappetit.",
+   "grammar": "Nomen-Verb-Verbindung · eine Runde + drehen · Perfekt: ich habe gedreht"
+  },
+  {
+   "v": "eine Strecke zurücklegen",
+   "en": "to cover a distance",
+   "meaning": "eine bestimmte Strecke fahren oder gehen.",
+   "example": "Wir legen eine lange Strecke zurück.",
+   "natural": "Wir haben heute eine Strecke von über zwanzig Kilometern zurückgelegt – meine Beine merken das deutlich.",
+   "grammar": "Nomen-Verb-Verbindung · eine Strecke + zurücklegen · trennbar"
+  },
+  {
+   "v": "einen Termin absagen",
+   "en": "to cancel an appointment",
+   "meaning": "einen Termin nicht stattfinden lassen.",
+   "example": "Ich muss den Termin leider absagen.",
+   "natural": "Ich muss den Termin für morgen absagen – ich habe mich erkältet und möchte niemanden anstecken.",
+   "grammar": "Nomen-Verb-Verbindung · einen Termin + absagen · trennbar"
+  },
+  {
+   "v": "in den Urlaub fahren",
+   "en": "to go on vacation",
+   "meaning": "in die Ferien fahren.",
+   "example": "Wir fahren im Sommer in den Urlaub.",
+   "natural": "Im August fahren wir in den Urlaub an die Nordsee – das kleine Dorf am Deich hat uns letztes Jahr schon gefallen.",
+   "grammar": "Nomen-Verb-Verbindung · in den Urlaub + fahren · starkes Verb"
+  },
+  {
+   "v": "einen Koffer packen",
+   "en": "to pack a suitcase",
+   "meaning": "den Koffer für die Reise vorbereiten.",
+   "example": "Ich packe meinen Koffer.",
+   "natural": "Ich packe den Koffer erst am Abend vor der Abreise – dann weiß ich, was ich wirklich brauche.",
+   "grammar": "Nomen-Verb-Verbindung · einen Koffer + packen · Perfekt: ich habe gepackt"
+  },
+  {
+   "v": "wieder gesund werden",
+   "en": "to get healthy again",
+   "meaning": "von einer Krankheit genesen.",
+   "example": "Ich werde nächste Woche wieder gesund.",
+   "natural": "Wenn du ein paar Tage richtig ausruhst und viel trinkst, wirst du schnell wieder gesund – dein Körper braucht nur Zeit.",
+   "grammar": "Nomen-Verb-Verbindung · gesund + werden · starkes Verb"
+  },
+  {
+   "v": "eine Überlegung anstellen",
+   "en": "to make a consideration / think something over",
+   "meaning": "kurz nachdenken und überlegen.",
+   "example": "Ich stelle kurz eine Überlegung an.",
+   "natural": "Bevor wir starten, sollten wir eine grundlegende Überlegung anstellen: Ist der Plan überhaupt finanzierbar?",
+   "grammar": "Nomen-Verb-Verbindung · eine Überlegung + anstellen · trennbar"
+  },
+  {
+   "v": "zu einem Schluss kommen",
+   "en": "to reach a conclusion",
+   "meaning": "nach dem Nachdenken zu einem Ergebnis kommen.",
+   "example": "Ich komme zu dem Schluss, dass wir mehr üben müssen.",
+   "natural": "Nach langem Abwägen bin ich zu dem Schluss gekommen, dass ein Jobwechsel jetzt wirklich der beste Schritt für mich ist.",
+   "grammar": "Nomen-Verb-Verbindung · zu einem Schluss + kommen · feste Präposition: zu + Dativ"
+  },
+  {
+   "v": "eine Annahme treffen",
+   "en": "to make an assumption",
+   "meaning": "etwas annehmen, ohne es zu prüfen.",
+   "example": "Wir treffen eine Annahme über den Zeitaufwand.",
+   "natural": "Man sollte keine Annahme über die Absichten eines Kunden treffen – besser ist es, direkt nachzufragen.",
+   "grammar": "Nomen-Verb-Verbindung · eine Annahme + treffen · starkes Verb"
+  },
+  {
+   "v": "eine Vermutung äußern",
+   "en": "to express a guess",
+   "meaning": "eine Vermutung aussprechen.",
+   "example": "Ich äußere eine Vermutung.",
+   "natural": "Darf ich eine Vermutung äußern? Ich glaube, die Verspätung hat mit dem Streik zu tun.",
+   "grammar": "Nomen-Verb-Verbindung · eine Vermutung + äußern · Perfekt: ich habe geäußert"
+  },
+  {
+   "v": "eine Lösung finden",
+   "en": "to find a solution",
+   "meaning": "eine Lösung entdecken.",
+   "example": "Wir finden eine Lösung für das Problem.",
+   "natural": "Wenn wir alle offen bleiben, finden wir mit Sicherheit eine Lösung – notfalls auch eine kreative Zwischenlösung.",
+   "grammar": "Nomen-Verb-Verbindung · eine Lösung + finden · starkes Verb"
+  },
+  {
+   "v": "einen Zusammenhang erkennen",
+   "en": "to recognize a connection",
+   "meaning": "erkennen, wie Dinge zusammenhängen.",
+   "example": "Ich erkenne einen Zusammenhang.",
+   "natural": "Jetzt erkenne ich den Zusammenhang: Der Umsatz ist genau dann gestiegen, wenn die Rabattaktion lief.",
+   "grammar": "Nomen-Verb-Verbindung · einen Zusammenhang + erkennen · starkes Verb"
+  },
+  {
+   "v": "auf eine Idee kommen",
+   "en": "to come up with an idea",
+   "meaning": "eine neue Idee bekommen.",
+   "example": "Ich bin auf eine gute Idee gekommen.",
+   "natural": "Beim Sport bin ich auf eine Idee gekommen: Wir könnten das Projekt als Pilotversuch in zwei Abteilungen starten.",
+   "grammar": "Nomen-Verb-Verbindung · auf eine Idee + kommen · feste Präposition: auf + Akkusativ"
+  },
+  {
+   "v": "einen Vorschlag annehmen",
+   "en": "to accept a suggestion",
+   "meaning": "einen Vorschlag akzeptieren.",
+   "example": "Ich nehme deinen Vorschlag an.",
+   "natural": "Wenn der Kunde den Vorschlag annimmt, sparen wir insgesamt zwei Monate Entwicklungszeit.",
+   "grammar": "Nomen-Verb-Verbindung · einen Vorschlag + annehmen · starkes Verb"
+  },
+  {
+   "v": "eine Meinung vertreten",
+   "en": "to have/hold an opinion",
+   "meaning": "seine Meinung ausdrücken und verteidigen.",
+   "example": "Er vertritt eine klare Meinung.",
+   "natural": "Auch wenn du eine andere Meinung vertrittst, solltest du deinem Gesprächspartner zuerst zuhören.",
+   "grammar": "Nomen-Verb-Verbindung · eine Meinung + vertreten · starkes Verb"
+  },
+  {
+   "v": "in Betracht ziehen",
+   "en": "to take into consideration",
+   "meaning": "etwas als möglich betrachten.",
+   "example": "Wir ziehen einen neuen Standort in Betracht.",
+   "natural": "Wir ziehen in Betracht, das Meeting ins Englische zu verlegen, weil internationale Kollegen dazukommen.",
+   "grammar": "Nomen-Verb-Verbindung · in Betracht + ziehen · feste Präposition: in + Akkusativ"
+  },
+  {
+   "v": "eine Entscheidung fällen",
+   "en": "to make/reach a decision (formal)",
+   "meaning": "eine endgültige Entscheidung treffen.",
+   "example": "Das Gericht fällt ein Urteil.",
+   "natural": "Die Jury wurde gebeten, eine Entscheidung zu fällen, damit der Wettbewerb weitergehen kann.",
+   "grammar": "Nomen-Verb-Verbindung · eine Entscheidung + fällen · formell, meist Gericht/Jury"
+  },
+  {
+   "v": "eine Frage stellen",
+   "en": "to ask a question",
+   "meaning": "eine Frage formulieren und direkt an jemanden richten, der antworten soll.",
+   "example": "Ich stelle dir eine Frage.",
+   "natural": "Darf ich dir eine persönliche Frage stellen – oder bist du gerade zu beschäftigt? Es geht nur um einen kleinen Ratschlag.",
+   "grammar": "Nomen-Verb-Verbindung · eine Frage + stellen · Perfekt: ich habe gestellt"
+  },
+  {
+   "v": "eine Antwort geben",
+   "en": "to give an answer",
+   "meaning": "auf eine Frage reagieren und die gewünschte Information mitteilen.",
+   "example": "Gib mir bitte eine Antwort.",
+   "natural": "Er hat mir leider noch keine Antwort gegeben, obwohl ich ihm die Frage schon vor einer Woche geschickt habe.",
+   "grammar": "Nomen-Verb-Verbindung · eine Antwort + geben · unregelmäßig (gab/gegeben)"
+  },
+  {
+   "v": "ein Kompliment machen",
+   "en": "to pay a compliment",
+   "meaning": "jemandem sagen, dass er etwas besonders gut macht.",
+   "example": "Ich mache dir ein Kompliment.",
+   "natural": "Ich möchte dir ein Kompliment machen: Deine Präsentation war gestern wirklich die beste in der ganzen Runde.",
+   "grammar": "Nomen-Verb-Verbindung · ein Kompliment + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "einen Gefallen tun",
+   "en": "to do someone a favour",
+   "meaning": "jemandem aus Freundlichkeit helfen.",
+   "example": "Kannst du mir einen Gefallen tun?",
+   "natural": "Kannst du mir einen kleinen Gefallen tun? Sei bitte so nett und überreiche das Paket dem Chef persönlich.",
+   "grammar": "Nomen-Verb-Verbindung · einen Gefallen + tun · unregelmäßig (tat/getan)"
+  },
+  {
+   "v": "Kontakt aufnehmen",
+   "en": "to get in touch",
+   "meaning": "mit jemandem Verbindung aufbauen.",
+   "example": "Ich nehme morgen Kontakt mit dir auf.",
+   "natural": "Wenn Sie Interesse haben, nehmen Sie einfach Kontakt mit uns auf – Sie erreichen uns auch am Wochenende per E-Mail.",
+   "grammar": "Nomen-Verb-Verbindung · Kontakt + aufnehmen · trennbares Verb"
+  },
+  {
+   "v": "sich bei jemandem für etwas bedanken",
+   "en": "to thank someone for something",
+   "meaning": "seinen Dank für eine Handlung ausdrücken.",
+   "example": "Ich bedanke mich bei dir für die Einladung.",
+   "natural": "Ich möchte mich bei dir für die tolle Unterstützung bedanken – ohne deine Hilfe hätte ich das nie geschafft.",
+   "grammar": "Reflexive Nomen-Verb-Verbindung · sich + bedanken + bei (Dativ) + für (Akkusativ)"
+  },
+  {
+   "v": "sich entschuldigen",
+   "en": "to apologise",
+   "meaning": "um Verzeihung bitten.",
+   "example": "Ich entschuldige mich bei dir.",
+   "natural": "Ich möchte mich bei dir entschuldigen – ich hätte gestern nicht so unfreundlich antworten dürfen.",
+   "grammar": "Reflexive Verbindung · sich + entschuldigen + bei (Dativ) · Perfekt: ich habe mich entschuldigt"
+  },
+  {
+   "v": "Rücksicht nehmen",
+   "en": "to show consideration",
+   "meaning": "auf die Wünsche und Bedürfnisse anderer achten.",
+   "example": "Wir müssen Rücksicht auf unsere Nachbarn nehmen.",
+   "natural": "In einer Wohngemeinschaft muss jeder Rücksicht auf die anderen nehmen, sonst gibt es schnell unnötigen Streit.",
+   "grammar": "Nomen-Verb-Verbindung · Rücksicht + nehmen + auf (Akkusativ)"
+  },
+  {
+   "v": "eine Beziehung aufbauen",
+   "en": "to build a relationship",
+   "meaning": "eine Partnerschaft oder Bekanntschaft entwickeln.",
+   "example": "Wir bauen langsam eine Beziehung auf.",
+   "natural": "Nach dem ersten Kennenlernen haben wir über gemeinsame Hobbys eine gute Freundschaft aufgebaut.",
+   "grammar": "Nomen-Verb-Verbindung · eine Beziehung + aufbauen · trennbares Verb"
+  },
+  {
+   "v": "einen Vertrag unterschreiben",
+   "en": "to sign a contract",
+   "meaning": "durch Unterschrift gültig machen.",
+   "example": "Ich unterschreibe den Vertrag.",
+   "natural": "Bevor du den Vertrag unterschreibst, solltest du das Kleingedruckte genau lesen – sonst könnte es Überraschungen geben.",
+   "grammar": "Nomen-Verb-Verbindung · einen Vertrag + unterschreiben · trennbares Verb"
+  },
+  {
+   "v": "eine Einladung annehmen",
+   "en": "to accept an invitation",
+   "meaning": "die Einladung als gültig bestätigen und zusagen.",
+   "example": "Ich nehme deine Einladung gerne an.",
+   "natural": "Vielen Dank für die Einladung zur Hochzeit – ich nehme sie sehr gerne an und komme mit meinem Partner.",
+   "grammar": "Nomen-Verb-Verbindung · eine Einladung + annehmen · unregelmäßig (nahm/genommen)"
+  },
+  {
+   "v": "einen Abschied nehmen",
+   "en": "to say goodbye",
+   "meaning": "sich von jemandem verabschieden.",
+   "example": "Wir nehmen heute Abschied von unserer Gruppe.",
+   "natural": "Es fällt mir schwer, nach so tollen Wochen Abschied von allen Teilnehmern zu nehmen – aber wir schreiben uns weiter.",
+   "grammar": "Nomen-Verb-Verbindung · Abschied + nehmen + von (Dativ)"
+  },
+  {
+   "v": "eine Ausnahme machen",
+   "en": "to make an exception",
+   "meaning": "für einen Sonderfall von der Regel abweichen.",
+   "example": "Wir machen heute eine Ausnahme.",
+   "natural": "Eigentlich schließt die Küche um 21 Uhr, aber für eure Gruppe machen wir heute eine Ausnahme.",
+   "grammar": "Nomen-Verb-Verbindung · eine Ausnahme + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "im Stau stehen",
+   "en": "to be stuck in traffic",
+   "meaning": "mit dem Auto im Verkehr steckenbleiben.",
+   "example": "Wir stehen im Stau.",
+   "natural": "Wir stehen seit einer halben Stunde im Stau auf der Autobahn – wir kommen leider erst später zum Treffen.",
+   "grammar": "Nomen-Verb-Verbindung · im Stau + stehen · feste Präposition: im (in + dem)"
+  },
+  {
+   "v": "einen Termin vereinbaren",
+   "en": "to make an appointment",
+   "meaning": "einen Zeitpunkt für ein Treffen festlegen.",
+   "example": "Ich möchte einen Termin vereinbaren.",
+   "natural": "Können wir bitte einen Termin vereinbaren? Mir passt der Donnerstag, weil ich danach keine weiteren Meetings habe.",
+   "grammar": "Nomen-Verb-Verbindung · einen Termin + vereinbaren · trennbare Präposition"
+  },
+  {
+   "v": "ein Rätsel lösen",
+   "en": "to solve a riddle / puzzle",
+   "meaning": "die Lösung einer Frage oder Aufgabe finden.",
+   "example": "Ich löse das Rätsel.",
+   "natural": "Mit ein bisschen Geduld können wir das Rätsel lösen – lesen wir den Hinweis einfach noch einmal in Ruhe.",
+   "grammar": "Nomen-Verb-Verbindung · ein Rätsel + lösen · Perfekt: ich habe gelöst"
+  },
+  {
+   "v": "in Bewegung kommen",
+   "en": "to get moving",
+   "meaning": "aktiv werden, anfangen sich zu bewegen.",
+   "example": "Wir kommen endlich in Bewegung.",
+   "natural": "Nach der langen Mittagspause sollten wir langsam wieder in Bewegung kommen, sonst schlafen wir gleich ein.",
+   "grammar": "Nomen-Verb-Verbindung · in Bewegung + kommen · feste Präposition: in + Akkusativ"
+  },
+  {
+   "v": "eine Frage offenlassen",
+   "en": "to leave a question open",
+   "meaning": "eine Frage zunächst nicht beantworten.",
+   "example": "Wir lassen die Frage noch offen.",
+   "natural": "Wir müssen die Preis-Frage noch offenlassen und in der nächsten Sitzung zusammen mit der Leitung entscheiden.",
+   "grammar": "Nomen-Verb-Verbindung · eine Frage + offenlassen · trennbar, Perfekt: ich habe offengelassen"
+  },
+  {
+   "v": "zur Frage stehen",
+   "en": "to face up to a question",
+   "meaning": "sich einer Frage stellen und dazu offen Stellung beziehen.",
+   "example": "Ich stehe zu deiner Frage.",
+   "natural": "Wir stehen zu der Frage der Kosten – auch wenn sie unangenehm ist, müssen wir sie ehrlich beantworten.",
+   "grammar": "Nomen-Verb-Verbindung · zu einer Frage + stehen · feste Präposition: zu + Dativ"
+  },
+  {
+   "v": "einen persönlichen Bezug herstellen",
+   "en": "to make a personal connection",
+   "meaning": "endlich eine persönliche Verbindung zum Thema schaffen.",
+   "example": "Ich stelle einen Bezug zum Alltag her.",
+   "natural": "Bei der Präsentation hat er schnell einen persönlichen Bezug zu unseren Erfahrungen hergestellt – das Publikum war sofort dabei.",
+   "grammar": "Nomen-Verb-Verbindung · einen Bezug + herstellen · trennbares Verb"
+  },
+  {
+   "v": "eine Frage stellen",
+   "en": "to ask a question",
+   "meaning": "eine Frage formulieren und an jemanden richten.",
+   "example": "Ich stelle dir eine Frage.",
+   "natural": "Darf ich dir eine Frage stellen – oder sind Sie gerade in Eile?",
+   "grammar": "Nomen-Verb-Verbindung · eine Frage + stellen"
+  },
+  {
+   "v": "eine Antwort geben",
+   "en": "to give an answer",
+   "meaning": "auf eine Frage reagieren und eine Antwort formulieren.",
+   "example": "Gib mir bitte eine Antwort!",
+   "natural": "Er hat mir noch keine Antwort gegeben, obwohl ich schon Tage auf seine Nachricht warte.",
+   "grammar": "Nomen-Verb-Verbindung · eine Antwort + geben"
+  },
+  {
+   "v": "eine Entscheidung treffen",
+   "en": "to make a decision",
+   "meaning": "selbst bestimmen, was als Nächstes passieren soll.",
+   "example": "Ich muss heute eine Entscheidung treffen.",
+   "natural": "Man sollte eine Entscheidung nicht überstürzen – wäge lieber alle Vor- und Nachteile ab.",
+   "grammar": "Nomen-Verb-Verbindung · eine Entscheidung + treffen"
+  },
+  {
+   "v": "einen Fehler machen",
+   "en": "to make a mistake",
+   "meaning": "etwas falsch machen.",
+   "example": "Ich habe einen Fehler gemacht.",
+   "natural": "Jeder macht mal einen Fehler – wichtig ist, dass du die Ursache erkennst.",
+   "grammar": "Nomen-Verb-Verbindung · einen Fehler + machen"
+  },
+  {
+   "v": "ein Gespräch führen",
+   "en": "to have a conversation",
+   "meaning": "ein Gespräch mit jemandem führen.",
+   "example": "Wir führen ein Gespräch.",
+   "natural": "Ich habe gestern ein langes Gespräch mit meiner Kollegin geführt – wir haben endlich alle Details geklärt.",
+   "grammar": "Nomen-Verb-Verbindung · ein Gespräch + führen"
+  },
+  {
+   "v": "Kontakt aufnehmen",
+   "en": "to get in touch",
+   "meaning": "eine Verbindung zu jemandem herstellen.",
+   "example": "Ich nehme Kontakt mit dir auf.",
+   "natural": "Wenn Sie Fragen haben, nehmen Sie einfach Kontakt mit unserem Team auf.",
+   "grammar": "Nomen-Verb-Verbindung · Kontakt + aufnehmen (trennbar)"
+  },
+  {
+   "v": "einen Termin vereinbaren",
+   "en": "to arrange an appointment",
+   "meaning": "einen Termin festlegen.",
+   "example": "Ich möchte einen Termin vereinbaren.",
+   "natural": "Können wir für nächste Woche einen Termin vereinbaren? Mir würde der Donnerstag passen.",
+   "grammar": "Nomen-Verb-Verbindung · einen Termin + vereinbaren"
+  },
+  {
+   "v": "eine Aufgabe übernehmen",
+   "en": "to take on a task",
+   "meaning": "eine Aufgabe selbst übernehmen.",
+   "example": "Ich übernehme diese Aufgabe.",
+   "natural": "Kannst du die Aufgabe übernehmen, während ich im Urlaub bin?",
+   "grammar": "Nomen-Verb-Verbindung · eine Aufgabe + übernehmen"
+  },
+  {
+   "v": "einen Vertrag unterschreiben",
+   "en": "to sign a contract",
+   "meaning": "den Vertrag mit seiner Unterschrift bestätigen.",
+   "example": "Ich unterschreibe den Vertrag.",
+   "natural": "Bevor du den Vertrag unterschreibst, lies bitte das Kleingedruckte.",
+   "grammar": "Nomen-Verb-Verbindung · einen Vertrag + unterschreiben (trennbar)"
+  },
+  {
+   "v": "einen Spaziergang machen",
+   "en": "to go for a walk",
+   "meaning": "draußen spazieren gehen.",
+   "example": "Ich mache einen Spaziergang.",
+   "natural": "Nach dem langen Bürotag mache ich immer einen Spaziergang – das hilft mir, den Kopf frei zu bekommen.",
+   "grammar": "Nomen-Verb-Verbindung · einen Spaziergang + machen"
+  },
+  {
+   "v": "Sport treiben",
+   "en": "to do sports",
+   "meaning": "Sport betreiben.",
+   "example": "Ich treibe zweimal pro Woche Sport.",
+   "natural": "Um fit zu bleiben, treibe ich am Wochenende Sport – Joggen oder Schwimmen.",
+   "grammar": "Nomen-Verb-Verbindung · Sport + treiben"
+  },
+  {
+   "v": "eine Überlegung anstellen",
+   "en": "to make a consideration",
+   "meaning": "über etwas nachdenken.",
+   "example": "Ich stelle eine Überlegung an.",
+   "natural": "Bevor wir die Reise buchen, sollten wir eine genauere Überlegung anstellen.",
+   "grammar": "Nomen-Verb-Verbindung · eine Überlegung + anstellen (trennbar)"
+  },
+  {
+   "v": "eine Rolle spielen",
+   "en": "to play a role",
+   "meaning": "wichtig sein, Einfluss haben.",
+   "example": "Das spielt keine Rolle.",
+   "natural": "Bei der Entscheidung hat das Gehalt eine große Rolle gespielt.",
+   "grammar": "Nomen-Verb-Verbindung · eine Rolle + spielen"
+  },
+  {
+   "v": "Rücksicht nehmen",
+   "en": "to show consideration",
+   "meaning": "auf andere achten.",
+   "example": "Nimm Rücksicht auf deine Nachbarn!",
+   "natural": "In einer WG muss man aufeinander Rücksicht nehmen.",
+   "grammar": "Nomen-Verb-Verbindung · Rücksicht + nehmen"
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+[
+ {
+  "v": "eine Aufgabe erledigen",
+  "en": "to complete a task",
+  "meaning": "eine Aufgabe ganz zu Ende bringen.",
+  "example": "Ich erledige die Aufgabe morgen.",
+  "natural": "Kannst du die Aufgabe bis zum Mittag erledigen? Der Kunde wartet schon auf die Lösung.",
+  "grammar": "Nomen-Verb-Verbindung · eine Aufgabe + erledigen · Perfekt: ich habe erledigt"
+ },
+ {
+  "v": "einen Auftrag annehmen",
+  "en": "to accept an order",
+  "meaning": "einen Auftrag übernehmen.",
+  "example": "Ich nehme den Auftrag an.",
+  "natural": "Wir nehmen den Auftrag nur dann an, wenn die Lieferzeit passt – sonst sagen wir höflich ab.",
+  "grammar": "Nomen-Verb-Verbindung · einen Auftrag + annehmen · starkes Verb"
+ },
+ {
+  "v": "einen Auftrag ablehnen",
+  "en": "to decline/reject an order",
+  "meaning": "einen Auftrag nicht übernehmen.",
+  "example": "Ich lehne den Auftrag ab.",
+  "natural": "Der Lieferant hat den Auftrag abgelehnt, weil die Materialkosten zu stark gestiegen sind.",
+  "grammar": "Nomen-Verb-Verbindung · einen Auftrag + ablehnen · trennbar"
+ },
+ {
+  "v": "einen Bericht schreiben",
+  "en": "to write a report",
+  "meaning": "einen Bericht verfassen.",
+  "example": "Ich schreibe den Bericht heute Abend.",
+  "natural": "Ich schreibe am Ende der Woche einen kurzen Bericht über den Projektstand – alle Zahlen findest du dort.",
+  "grammar": "Nomen-Verb-Verbindung · einen Bericht + schreiben · Perfekt: ich habe geschrieben"
+ },
+ {
+  "v": "Verantwortung übernehmen",
+  "en": "to take responsibility",
+  "meaning": "selbst für etwas verantwortlich sein.",
+  "example": "Ich übernehme die Verantwortung.",
+  "natural": "Wenn du die Verantwortung für das Projekt übernimmst, musst du auch bei Problemen zu deiner Entscheidung stehen.",
+  "grammar": "Nomen-Verb-Verbindung · Verantwortung + übernehmen · starkes Verb"
+ },
+ {
+  "v": "eine Leistung erbringen",
+  "en": "to deliver a performance",
+  "meaning": "eine Leistung vollbringen.",
+  "example": "Das Team erbringt eine gute Leistung.",
+  "natural": "Der neue Mitarbeiter hat eine bemerkenswerte Leistung erbracht – schon im ersten Monat übertraf er alle Erwartungen.",
+  "grammar": "Nomen-Verb-Verbindung · eine Leistung + erbringen · formell · starkes Verb"
+ },
+ {
+  "v": "ein Angebot machen",
+  "en": "to make an offer",
+  "meaning": "ein Angebot unterbreiten.",
+  "example": "Wir machen dir ein Angebot.",
+  "natural": "Wir machen Ihnen ein Angebot über zwölf Monate Laufzeit – inklusive Wartung und Support.",
+  "grammar": "Nomen-Verb-Verbindung · ein Angebot + machen · Perfekt: ich habe gemacht"
+ },
+ {
+  "v": "eine Prüfung bestehen",
+  "en": "to pass an exam",
+  "meaning": "eine Prüfung erfolgreich abschließen.",
+  "example": "Ich bestehe die Prüfung.",
+  "natural": "Wenn du die Prüfung bestehen willst, musst du regelmäßig üben – nicht nur zwei Wochen vorher.",
+  "grammar": "Nomen-Verb-Verbindung · eine Prüfung + bestehen · starkes Verb"
+ },
+ {
+  "v": "eine Stelle anbieten",
+  "en": "to offer a position",
+  "meaning": "eine Stelle ausschreiben und bewerbbar machen.",
+  "example": "Die Firma bietet eine neue Stelle an.",
+  "natural": "Das Unternehmen bietet eine Stelle im Bereich Vertrieb an – die Bewerbungsfrist endet am Freitag.",
+  "grammar": "Nomen-Verb-Verbindung · eine Stelle + anbieten · Perfekt: ich habe angeboten"
+ },
+ {
+  "v": "eine Bewerbung schicken",
+  "en": "to send an application",
+  "meaning": "eine Bewerbung absenden.",
+  "example": "Ich schicke meine Bewerbung heute.",
+  "natural": "Falls du dich bewerben willst, schicke deine Bewerbung am besten mit PDF-Anhang – das erleichtert uns die Auswahl.",
+  "grammar": "Nomen-Verb-Verbindung · eine Bewerbung + schicken · Perfekt: ich habe geschickt"
+ },
+ {
+  "v": "einen Lohn auszahlen",
+  "en": "to pay out a salary",
+  "meaning": "den Lohn überweisen.",
+  "example": "Die Firma zahlt den Lohn pünktlich aus.",
+  "natural": "Der Arbeitgeber zahlt den Lohn immer am letzten Werktag des Monats aus – diesmal fällt er auf einen Freitag.",
+  "grammar": "Nomen-Verb-Verbindung · einen Lohn + auszahlen · trennbar"
+ },
+ {
+  "v": "eine Besprechung halten",
+  "en": "to hold a meeting",
+  "meaning": "eine Besprechung abhalten.",
+  "example": "Wir halten heute eine Besprechung.",
+  "natural": "Der Chef hält jeden Montagmorgen eine kurze Besprechung, damit alle das Ziel der Woche kennen.",
+  "grammar": "Nomen-Verb-Verbindung · eine Besprechung + halten · starkes Verb"
+ },
+ {
+  "v": "ein Ziel erreichen",
+  "en": "to reach a goal",
+  "meaning": "ein Ziel erfolgreich erreichen.",
+  "example": "Wir haben unser Ziel erreicht.",
+  "natural": "Wenn du das Ziel erreichen willst, musst du dir kleine Zwischenziele setzen – so bleibst du motiviert.",
+  "grammar": "Nomen-Verb-Verbindung · ein Ziel + erreichen · Perfekt: ich habe erreicht"
+ },
+ {
+  "v": "eine Schwierigkeit überwinden",
+  "en": "to overcome a difficulty",
+  "meaning": "eine Schwierigkeit bewältigen.",
+  "example": "Wir überwinden diese Schwierigkeit.",
+  "natural": "Jedes Team muss diese Schwierigkeit überwinden – danach ist die Zusammenarbeit deutlich besser.",
+  "grammar": "Nomen-Verb-Verbindung · eine Schwierigkeit + überwinden · starkes Verb"
+ },
+ {
+  "v": "eine Frist einhalten",
+  "en": "to meet a deadline",
+  "meaning": "die Frist nicht überschreiten.",
+  "example": "Bitte halte die Frist ein!",
+  "natural": "Wir können die Frist nur dann einhalten, wenn alle ihre Zwischenergebnisse pünktlich abgeben.",
+  "grammar": "Nomen-Verb-Verbindung · eine Frist + einhalten · starkes Verb"
+ },
+ {
+  "v": "einen Druck ausüben",
+  "en": "to exert pressure",
+  "meaning": "Druck auf jemanden ausüben.",
+  "example": "Er übt großen Druck auf mich aus.",
+  "natural": "Der Kunde übt Druck auf uns aus, weil er die Lieferung unbedingt vor dem Feiertag braucht.",
+  "grammar": "Nomen-Verb-Verbindung · Druck + ausüben · feste Präposition: auf + Akkusativ"
+ },
+ {
+  "v": "eine Verbesserung vorschlagen",
+  "en": "to suggest an improvement",
+  "meaning": "eine Verbesserung vorschlagen.",
+  "example": "Ich schlage eine Verbesserung vor.",
+  "natural": "Ich möchte eine Verbesserung vorschlagen: wir sollten die wöchentliche Besprechung um fünfzehn Minuten kürzen.",
+  "grammar": "Nomen-Verb-Verbindung · eine Verbesserung + vorschlagen · trennbar"
+ },
+ {
+  "v": "Rechenschaft ablegen",
+  "en": "to give an account / account for",
+  "meaning": "über seine Handlungen berichten.",
+  "example": "Er legt Rechenschaft über seine Entscheidungen ab.",
+  "natural": "Der Projektleiter muss Rechenschaft über die Ausgaben ablegen, bevor das Budget freigegeben wird.",
+  "grammar": "Nomen-Verb-Verbindung · Rechenschaft + ablegen · formell · trennbar"
+ },
+ {
+  "v": "eine Karriere machen",
+  "en": "to make a career",
+  "meaning": "beruflich aufsteigen.",
+  "example": "Sie macht eine tolle Karriere.",
+  "natural": "Wenn du eine Karriere in der IT machen willst, sind ständiges Lernen und praktische Projekte wirklich entscheidend.",
+  "grammar": "Nomen-Verb-Verbindung · eine Karriere + machen · Perfekt: ich habe gemacht"
+ },
+ {
+  "v": "in Rente gehen",
+  "en": "to retire",
+  "meaning": "in den Ruhestand treten.",
+  "example": "Mein Vater geht nächstes Jahr in Rente.",
+  "natural": "Nach vierzig Jahren Arbeit geht er endlich in Rente – und plant jetzt eine lange Reise durch Südamerika.",
+  "grammar": "Nomen-Verb-Verbindung · in Rente + gehen · feste Präposition: in + Akkusativ"
+ }
+]

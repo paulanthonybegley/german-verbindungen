@@ -1,0 +1,90 @@
+[
+ {
+  "v": "eine Überlegung anstellen",
+  "en": "to make a consideration / think something over",
+  "meaning": "kurz nachdenken und überlegen.",
+  "example": "Ich stelle kurz eine Überlegung an.",
+  "natural": "Bevor wir starten, sollten wir eine grundlegende Überlegung anstellen: Ist der Plan überhaupt finanzierbar?",
+  "grammar": "Nomen-Verb-Verbindung · eine Überlegung + anstellen · trennbar"
+ },
+ {
+  "v": "zu einem Schluss kommen",
+  "en": "to reach a conclusion",
+  "meaning": "nach dem Nachdenken zu einem Ergebnis kommen.",
+  "example": "Ich komme zu dem Schluss, dass wir mehr üben müssen.",
+  "natural": "Nach langem Abwägen bin ich zu dem Schluss gekommen, dass ein Jobwechsel jetzt wirklich der beste Schritt für mich ist.",
+  "grammar": "Nomen-Verb-Verbindung · zu einem Schluss + kommen · feste Präposition: zu + Dativ"
+ },
+ {
+  "v": "eine Annahme treffen",
+  "en": "to make an assumption",
+  "meaning": "etwas annehmen, ohne es zu prüfen.",
+  "example": "Wir treffen eine Annahme über den Zeitaufwand.",
+  "natural": "Man sollte keine Annahme über die Absichten eines Kunden treffen – besser ist es, direkt nachzufragen.",
+  "grammar": "Nomen-Verb-Verbindung · eine Annahme + treffen · starkes Verb"
+ },
+ {
+  "v": "eine Vermutung äußern",
+  "en": "to express a guess",
+  "meaning": "eine Vermutung aussprechen.",
+  "example": "Ich äußere eine Vermutung.",
+  "natural": "Darf ich eine Vermutung äußern? Ich glaube, die Verspätung hat mit dem Streik zu tun.",
+  "grammar": "Nomen-Verb-Verbindung · eine Vermutung + äußern · Perfekt: ich habe geäußert"
+ },
+ {
+  "v": "eine Lösung finden",
+  "en": "to find a solution",
+  "meaning": "eine Lösung entdecken.",
+  "example": "Wir finden eine Lösung für das Problem.",
+  "natural": "Wenn wir alle offen bleiben, finden wir mit Sicherheit eine Lösung – notfalls auch eine kreative Zwischenlösung.",
+  "grammar": "Nomen-Verb-Verbindung · eine Lösung + finden · starkes Verb"
+ },
+ {
+  "v": "einen Zusammenhang erkennen",
+  "en": "to recognize a connection",
+  "meaning": "erkennen, wie Dinge zusammenhängen.",
+  "example": "Ich erkenne einen Zusammenhang.",
+  "natural": "Jetzt erkenne ich den Zusammenhang: Der Umsatz ist genau dann gestiegen, wenn die Rabattaktion lief.",
+  "grammar": "Nomen-Verb-Verbindung · einen Zusammenhang + erkennen · starkes Verb"
+ },
+ {
+  "v": "auf eine Idee kommen",
+  "en": "to come up with an idea",
+  "meaning": "eine neue Idee bekommen.",
+  "example": "Ich bin auf eine gute Idee gekommen.",
+  "natural": "Beim Sport bin ich auf eine Idee gekommen: Wir könnten das Projekt als Pilotversuch in zwei Abteilungen starten.",
+  "grammar": "Nomen-Verb-Verbindung · auf eine Idee + kommen · feste Präposition: auf + Akkusativ"
+ },
+ {
+  "v": "einen Vorschlag annehmen",
+  "en": "to accept a suggestion",
+  "meaning": "einen Vorschlag akzeptieren.",
+  "example": "Ich nehme deinen Vorschlag an.",
+  "natural": "Wenn der Kunde den Vorschlag annimmt, sparen wir insgesamt zwei Monate Entwicklungszeit.",
+  "grammar": "Nomen-Verb-Verbindung · einen Vorschlag + annehmen · starkes Verb"
+ },
+ {
+  "v": "eine Meinung vertreten",
+  "en": "to have/hold an opinion",
+  "meaning": "seine Meinung ausdrücken und verteidigen.",
+  "example": "Er vertritt eine klare Meinung.",
+  "natural": "Auch wenn du eine andere Meinung vertrittst, solltest du deinem Gesprächspartner zuerst zuhören.",
+  "grammar": "Nomen-Verb-Verbindung · eine Meinung + vertreten · starkes Verb"
+ },
+ {
+  "v": "in Betracht ziehen",
+  "en": "to take into consideration",
+  "meaning": "etwas als möglich betrachten.",
+  "example": "Wir ziehen einen neuen Standort in Betracht.",
+  "natural": "Wir ziehen in Betracht, das Meeting ins Englische zu verlegen, weil internationale Kollegen dazukommen.",
+  "grammar": "Nomen-Verb-Verbindung · in Betracht + ziehen · feste Präposition: in + Akkusativ"
+ },
+ {
+  "v": "eine Entscheidung fällen",
+  "en": "to make/reach a decision (formal)",
+  "meaning": "eine endgültige Entscheidung treffen.",
+  "example": "Das Gericht fällt ein Urteil.",
+  "natural": "Die Jury wurde gebeten, eine Entscheidung zu fällen, damit der Wettbewerb weitergehen kann.",
+  "grammar": "Nomen-Verb-Verbindung · eine Entscheidung + fällen · formell, meist Gericht/Jury"
+ }
+]

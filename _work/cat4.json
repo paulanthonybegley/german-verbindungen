@@ -1,0 +1,130 @@
+[
+ {
+  "v": "einen Spaziergang machen",
+  "en": "to go for a walk",
+  "meaning": "kurz im Freien wandern, ohne festes Ziel.",
+  "example": "Ich mache einen Spaziergang.",
+  "natural": "Nach dem langen Bürotag mache ich immer einen Spaziergang am Fluss – das hilft mir, den Kopf freizubekommen.",
+  "grammar": "Nomen-Verb-Verbindung · einen Spaziergang + machen · Perfekt: ich habe gemacht"
+ },
+ {
+  "v": "Sport treiben",
+  "en": "to do sports",
+  "meaning": "regelmäßig trainieren und sich bewegen.",
+  "example": "Ich treibe zweimal pro Woche Sport.",
+  "natural": "Um fit zu bleiben, treibe ich am Wochenende Sport – Joggen und Schwimmen sind meine Favoriten.",
+  "grammar": "Nomen-Verb-Verbindung · Sport + treiben · starkes Verb"
+ },
+ {
+  "v": "einen Ausflug machen",
+  "en": "to go on a trip",
+  "meaning": "einen Tagesausflug unternehmen.",
+  "example": "Wir machen am Sonntag einen Ausflug.",
+  "natural": "Am Samstag machen wir einen Ausflug in die Berge – pack ruhig die Wanderstiefel ein.",
+  "grammar": "Nomen-Verb-Verbindung · einen Ausflug + machen · Perfekt: ich habe gemacht"
+ },
+ {
+  "v": "eine Tour buchen",
+  "en": "to book a tour",
+  "meaning": "eine geführte Tour reservieren.",
+  "example": "Ich buche eine Tour durch die Stadt.",
+  "natural": "Wir haben eine Tour durch das alte Stadtviertel gebucht – die Führung dauert zwei Stunden und lohnt sich wirklich.",
+  "grammar": "Nomen-Verb-Verbindung · eine Tour + buchen · Perfekt: ich habe gebucht"
+ },
+ {
+  "v": "an einer Tour teilnehmen",
+  "en": "to take part in a tour",
+  "meaning": "bei einer Führung dabei sein.",
+  "example": "Wir nehmen an der Tour teil.",
+  "natural": "Die ganze Gruppe nimmt an der Tour durch die Altstadt teil – treffpunkt ist vor dem Rathaus.",
+  "grammar": "Nomen-Verb-Verbindung · an einer Tour + teilnehmen · feste Präposition: an + Dativ"
+ },
+ {
+  "v": "einen Plan umsetzen",
+  "en": "to implement a plan",
+  "meaning": "einen Plan in die Tat umsetzen.",
+  "example": "Wir setzen den Plan jetzt um.",
+  "natural": "Es reicht nicht, einen Plan zu machen – du musst ihn auch konsequent umsetzen, sonst bleibt alles Theorie.",
+  "grammar": "Nomen-Verb-Verbindung · einen Plan + umsetzen · trennbar"
+ },
+ {
+  "v": "einen Versuch unternehmen",
+  "en": "to make an attempt",
+  "meaning": "etwas versuchen.",
+  "example": "Ich unternehme einen Versuch.",
+  "natural": "Wir unternehmen an diesem Wochenende einen neuen Versuch mit dem Gipfel – beim letzten Mal war das Wetter zu schlecht.",
+  "grammar": "Nomen-Verb-Verbindung · einen Versuch + unternehmen · starkes Verb"
+ },
+ {
+  "v": "in Bewegung bleiben",
+  "en": "to stay active / keep moving",
+  "meaning": "aktiv bleiben und sich weiterbewegen.",
+  "example": "Bleib bitte in Bewegung!",
+  "natural": "Auch im Homeoffice solltest du tagsüber in Bewegung bleiben – jede Stunde ein paar Schritte machen reicht schon.",
+  "grammar": "Nomen-Verb-Verbindung · in Bewegung + bleiben · feste Präposition: in + Dativ"
+ },
+ {
+  "v": "eine Pause einlegen",
+  "en": "to take a break",
+  "meaning": "bewusst eine Pause machen.",
+  "example": "Wir legen eine Pause ein.",
+  "natural": "Vor dem Vortrag lege ich immer eine kurze Pause ein, um mich zu sammeln – sonst bin ich zu aufgeregt.",
+  "grammar": "Nomen-Verb-Verbindung · eine Pause + einlegen · trennbar"
+ },
+ {
+  "v": "den Weg kennen",
+  "en": "to know the way",
+  "meaning": "wissen, wie man irgendwohin kommt.",
+  "example": "Ich kenne den Weg.",
+  "natural": "Keine Sorge, ich kenne den Weg zur Haltestelle ganz genau – ich gehe hier jeden Tag entlang.",
+  "grammar": "Nomen-Verb-Verbindung · den Weg + kennen · Perfekt: ich habe gekannt"
+ },
+ {
+  "v": "eine Runde drehen",
+  "en": "to do a lap / take a turn",
+  "meaning": "eine Runde laufen oder fahren.",
+  "example": "Wir drehen noch eine Runde.",
+  "natural": "Vor dem Frühstück drehen wir noch eine Runde um den See – danach haben wir einen Wahnsinnsappetit.",
+  "grammar": "Nomen-Verb-Verbindung · eine Runde + drehen · Perfekt: ich habe gedreht"
+ },
+ {
+  "v": "eine Strecke zurücklegen",
+  "en": "to cover a distance",
+  "meaning": "eine bestimmte Strecke fahren oder gehen.",
+  "example": "Wir legen eine lange Strecke zurück.",
+  "natural": "Wir haben heute eine Strecke von über zwanzig Kilometern zurückgelegt – meine Beine merken das deutlich.",
+  "grammar": "Nomen-Verb-Verbindung · eine Strecke + zurücklegen · trennbar"
+ },
+ {
+  "v": "einen Termin absagen",
+  "en": "to cancel an appointment",
+  "meaning": "einen Termin nicht stattfinden lassen.",
+  "example": "Ich muss den Termin leider absagen.",
+  "natural": "Ich muss den Termin für morgen absagen – ich habe mich erkältet und möchte niemanden anstecken.",
+  "grammar": "Nomen-Verb-Verbindung · einen Termin + absagen · trennbar"
+ },
+ {
+  "v": "in den Urlaub fahren",
+  "en": "to go on vacation",
+  "meaning": "in die Ferien fahren.",
+  "example": "Wir fahren im Sommer in den Urlaub.",
+  "natural": "Im August fahren wir in den Urlaub an die Nordsee – das kleine Dorf am Deich hat uns letztes Jahr schon gefallen.",
+  "grammar": "Nomen-Verb-Verbindung · in den Urlaub + fahren · starkes Verb"
+ },
+ {
+  "v": "einen Koffer packen",
+  "en": "to pack a suitcase",
+  "meaning": "den Koffer für die Reise vorbereiten.",
+  "example": "Ich packe meinen Koffer.",
+  "natural": "Ich packe den Koffer erst am Abend vor der Abreise – dann weiß ich, was ich wirklich brauche.",
+  "grammar": "Nomen-Verb-Verbindung · einen Koffer + packen · Perfekt: ich habe gepackt"
+ },
+ {
+  "v": "wieder gesund werden",
+  "en": "to get healthy again",
+  "meaning": "von einer Krankheit genesen.",
+  "example": "Ich werde nächste Woche wieder gesund.",
+  "natural": "Wenn du ein paar Tage richtig ausruhst und viel trinkst, wirst du schnell wieder gesund – dein Körper braucht nur Zeit.",
+  "grammar": "Nomen-Verb-Verbindung · gesund + werden · starkes Verb"
+ }
+]

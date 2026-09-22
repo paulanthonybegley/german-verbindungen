@@ -1,0 +1,5 @@
+# ignore nothing important from the built course by default; the course is
+# intentionally self-contained. Only OS/Python noise:
+.DS_Store
+__pycache__/
+*.pyc

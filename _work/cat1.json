@@ -1,0 +1,146 @@
+[
+ {
+  "v": "eine Frage stellen",
+  "en": "to ask a question",
+  "meaning": "eine Frage formulieren und die Antwort verlangen.",
+  "example": "Ich stelle dir eine Frage.",
+  "natural": "Darf ich Ihnen eine persönliche Frage stellen – oder haben Sie gerade keine Zeit?",
+  "grammar": "Nomen-Verb-Verbindung · eine Frage + stellen · Perfekt: ich habe gestellt"
+ },
+ {
+  "v": "eine Antwort geben",
+  "en": "to give an answer",
+  "meaning": "auf eine Frage antworten.",
+  "example": "Gib mir bitte eine Antwort!",
+  "natural": "Er hat mir noch immer keine Antwort gegeben, obwohl ich ihm schon gestern per E-Mail geschrieben habe.",
+  "grammar": "Nomen-Verb-Verbindung · eine Antwort + geben · starkes Verb"
+ },
+ {
+  "v": "eine Entscheidung treffen",
+  "en": "to make a decision",
+  "meaning": "selbst bestimmen, was als Nächstes passieren soll.",
+  "example": "Ich muss heute eine Entscheidung treffen.",
+  "natural": "Man sollte eine wichtige Entscheidung nicht überstürzen – nimm dir Zeit und wäge alle Vor- und Nachteile ab.",
+  "grammar": "Nomen-Verb-Verbindung · eine Entscheidung + treffen · starkes Verb"
+ },
+ {
+  "v": "einen Fehler machen",
+  "en": "to make a mistake",
+  "meaning": "etwas falsch machen.",
+  "example": "Ich habe einen Fehler gemacht.",
+  "natural": "Jeder macht mal einen Fehler – wichtig ist, dass du ihn erkennst und es beim nächsten Mal besser machst.",
+  "grammar": "Nomen-Verb-Verbindung · einen Fehler + machen · Perfekt: ich habe gemacht"
+ },
+ {
+  "v": "Rücksicht nehmen",
+  "en": "to show consideration",
+  "meaning": "auf die Bedürfnisse anderer achten.",
+  "example": "Nimm bitte Rücksicht auf deine Nachbarn!",
+  "natural": "In einer WG muss man aufeinander Rücksicht nehmen, sonst gibt es schnell Streit.",
+  "grammar": "Nomen-Verb-Verbindung ohne Artikel · Rücksicht + nehmen · feste Präposition: auf + Akkusativ"
+ },
+ {
+  "v": "einen Termin vereinbaren",
+  "en": "to arrange an appointment",
+  "meaning": "einen Zeitpunkt für ein Gespräch oder Treffen festlegen.",
+  "example": "Ich möchte einen Termin vereinbaren.",
+  "natural": "Können wir für nächste Woche einen Termin vereinbaren? Mir persönlich würde der Donnerstagnachmittag am besten passen.",
+  "grammar": "Nomen-Verb-Verbindung · einen Termin + vereinbaren · trennbar"
+ },
+ {
+  "v": "einen Vertrag unterschreiben",
+  "en": "to sign a contract",
+  "meaning": "den Vertrag mit seiner Unterschrift bestätigen.",
+  "example": "Ich muss den Vertrag noch unterschreiben.",
+  "natural": "Bevor du den Vertrag unterschreibst, solltest du das Kleingedruckte ganz genau lesen.",
+  "grammar": "Nomen-Verb-Verbindung · einen Vertrag + unterschreiben · trennbar"
+ },
+ {
+  "v": "eine Rolle spielen",
+  "en": "to play a role",
+  "meaning": "wichtig sein / Einfluss haben.",
+  "example": "Das spielt für mich keine Rolle.",
+  "natural": "Bei der Entscheidung solltest du nicht nur das Geld eine Rolle spielen lassen, sondern auch die Arbeitszeit.",
+  "grammar": "Nomen-Verb-Verbindung · eine Rolle + spielen · feste Präposition: für + Akkusativ"
+ },
+ {
+  "v": "Fragen stellen",
+  "en": "to ask questions",
+  "meaning": "mehrere Fragen nacheinander stellen.",
+  "example": "Die Kinder stellen immer so viele Fragen.",
+  "natural": "In einem Vorstellungsgespräch solltest du am Ende selbst Fragen stellen, denn das zeigt echtes Interesse.",
+  "grammar": "Nomen-Verb-Verbindung im Plural · Fragen (Pl.) + stellen"
+ },
+ {
+  "v": "einen Anruf tätigen",
+  "en": "to make a phone call",
+  "meaning": "jemanden anrufen (formell).",
+  "example": "Ich muss noch einen Anruf tätigen.",
+  "natural": "Ich tätige gleich einen Anruf bei der Bank, um den Kontostand zu klären.",
+  "grammar": "Nomen-Verb-Verbindung · einen Anruf + tätigen · formell"
+ },
+ {
+  "v": "eine E-Mail schreiben",
+  "en": "to write an email",
+  "meaning": "eine E-Mail verfassen und absenden.",
+  "example": "Ich schreibe dir eine E-Mail.",
+  "natural": "Ich schreibe dir gleich eine E-Mail mit allen Details, dann hast du alles schwarz auf weiß.",
+  "grammar": "Nomen-Verb-Verbindung · eine E-Mail + schreiben · Perfekt: ich habe geschrieben"
+ },
+ {
+  "v": "ein Interview führen",
+  "en": "to conduct an interview",
+  "meaning": "ein Interview leiten und Fragen stellen.",
+  "example": "Sie führt heute ein Interview.",
+  "natural": "Die Journalistin führt ein Interview mit dem Minister, anschließend wird es im Radio gesendet.",
+  "grammar": "Nomen-Verb-Verbindung · ein Interview + führen · Perfekt: ich habe geführt"
+ },
+ {
+  "v": "Kontakt aufnehmen",
+  "en": "to get in touch / make contact",
+  "meaning": "eine Verbindung zu jemandem herstellen.",
+  "example": "Ich nehme morgen Kontakt mit dir auf.",
+  "natural": "Wenn Sie Fragen haben, nehmen Sie einfach Kontakt mit unserem Kundenservice auf – wir sind rund um die Uhr erreichbar.",
+  "grammar": "Nomen-Verb-Verbindung ohne Artikel · Kontakt + aufnehmen · trennbar"
+ },
+ {
+  "v": "eine Auskunft geben",
+  "en": "to give information",
+  "meaning": "eine Information mitteilen (formell).",
+  "example": "Können Sie mir eine Auskunft geben?",
+  "natural": "Die Dame am Schalter hat mir eine freundliche Auskunft gegeben – die Öffnungszeiten stimmen.",
+  "grammar": "Nomen-Verb-Verbindung · eine Auskunft + geben · Präteritum: ich gab"
+ },
+ {
+  "v": "eine Pause machen",
+  "en": "to take a break",
+  "meaning": "für kurze Zeit aufhören zu arbeiten.",
+  "example": "Lass uns eine Pause machen!",
+  "natural": "Wir sollten wirklich eine kurze Pause machen, sonst wird die Konzentration am Nachmittag zu schlecht.",
+  "grammar": "Nomen-Verb-Verbindung · eine Pause + machen · Perfekt: ich habe gemacht"
+ },
+ {
+  "v": "einen Plan aufstellen",
+  "en": "to draw up a plan",
+  "meaning": "einen Plan erstellen.",
+  "example": "Wir stellen jetzt einen Plan auf.",
+  "natural": "Bevor wir die Reise buchen, sollten wir einen genauen Plan aufstellen – sonst wird es ein Chaos.",
+  "grammar": "Nomen-Verb-Verbindung · einen Plan + aufstellen · trennbar"
+ },
+ {
+  "v": "eine Aufgabe übernehmen",
+  "en": "to take on a task",
+  "meaning": "eine Aufgabe selbst machen.",
+  "example": "Ich übernehme diese Aufgabe.",
+  "natural": "Kannst du die Aufgabe übernehmen, während ich im Urlaub bin? Die Unterlagen findest du auf dem Schreibtisch.",
+  "grammar": "Nomen-Verb-Verbindung · eine Aufgabe + übernehmen · starkes Verb"
+ },
+ {
+  "v": "eine Entscheidung fällen",
+  "en": "to reach a decision (formal)",
+  "meaning": "eine endgültige Entscheidung treffen (formell).",
+  "example": "Das Gericht fällt ein Urteil.",
+  "natural": "Die Jury wurde gebeten, endlich eine Entscheidung zu fällen, damit der Wettbewerb weitergehen kann.",
+  "grammar": "Nomen-Verb-Verbindung · eine Entscheidung + fällen · formell, meist Gericht/Jury"
+ }
+]

@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modul 2: Kommunikation &amp; Gefühle – Wortverbindungen B1-C1</title>
+<style>* { margin:0; padding:0; box-sizing:border-box; }
+:root { --red:#b3121b; --red-dark:#7c0a12; --gold:#d4af37; --black:#1a1a1a; --grey:#6b6b6b; --cream:#faf7f2; }
+body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:var(--cream); color:var(--black); line-height:1.6; }
+.topbar { background:linear-gradient(135deg,var(--red) 0%,var(--red-dark) 100%); color:#fff; padding:.9rem 1.2rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:.5rem; }
+.topbar a { color:#ffe9e9; text-decoration:none; font-weight:600; font-size:.9rem; }
+.topbar .title { font-weight:700; font-size:1.05rem; }
+header.hdr { background:linear-gradient(135deg,var(--red) 0%,var(--red-dark) 100%); color:#fff; padding:1.6rem 1.2rem; text-align:center; }
+header.hdr h1 { font-size:clamp(1.4rem,3vw,2.1rem); }
+header.hdr p { opacity:.9; }
+.container { max-width:860px; margin:0 auto; padding:1.4rem 1.2rem 3rem; }
+.tabs { display:flex; gap:.6rem; flex-wrap:wrap; margin-bottom:1.4rem; }
+.tabbtn { border:2px solid var(--red); background:#fff; color:var(--red); padding:.55rem 1rem; border-radius:8px; font-weight:600; cursor:pointer; font-size:.9rem; transition:all .18s; }
+.tabbtn.active { background:var(--red); color:#fff; }
+.panel { display:none; }
+.panel.active { display:block; }
+.panel h2 { color:var(--red); margin-bottom:.6rem; font-size:1.3rem; }
+.panel p.lede { color:var(--grey); margin-bottom:1rem; font-size:.95rem; }
+.speak { color:var(--red); text-decoration:underline dotted; cursor:pointer; }
+.progressbox { background:#fff; border-radius:10px; padding:.9rem 1.2rem; box-shadow:0 2px 6px rgba(0,0,0,.08); margin-bottom:1rem; display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
+.progressbox .bar { flex:1; height:10px; background:#e7e2da; border-radius:6px; overflow:hidden; min-width:120px; }
+.progressbox .bar .fill { height:100%; background:linear-gradient(90deg,var(--red),#e0555d); transition:width .3s; }
+.btn { display:inline-block; background:var(--red); color:#fff; padding:.55rem 1.1rem; border-radius:8px; border:none; font-weight:600; font-size:.9rem; cursor:pointer; transition:background .18s; }
+.btn:hover { background:var(--red-dark); }
+.btn.gold { background:var(--gold); color:#1a1a1a; }
+.btn.ghost { background:#fff; color:var(--red); border:2px solid var(--red); }
+.qcard { background:#fff; border-radius:12px; padding:1.3rem 1.5rem; box-shadow:0 2px 8px rgba(0,0,0,.1); margin-bottom:1rem; }
+.qcard .q { font-size:1.12rem; margin-bottom:.8rem; }
+.qcard .q .german { font-weight:700; color:var(--red); }
+.opts { display:grid; gap:.6rem; }
+.opt { border:2px solid #ddd; background:#fff; padding:.7rem 1rem; border-radius:8px; cursor:pointer; font-size:.96rem; transition:all .15s; text-align:left; }
+.opt:hover { border-color:var(--red); }
+.opt.correct { background:#e9f7ec; border-color:#2e9e4f; }
+.opt.wrong { background:#fdecec; border-color:#c0392b; }
+.reveal { background:#fbf3e4; border:1px solid #e2c98a; border-radius:10px; padding:1rem 1.2rem; margin:.8rem 0 0; font-size:.96rem; }
+.reveal .g { font-weight:700; color:var(--red); font-size:1.05rem; }
+.reveal .en { color:var(--grey); }
+.gramtag { display:inline-block; background:#f3ede1; color:#7a5b1e; border:1px solid #e2c98a; border-radius:20px; padding:.15rem .7rem; font-size:.8rem; margin:.15rem .2rem .15rem 0; }
+.navbtns { display:flex; gap:.7rem; margin-top:1rem; flex-wrap:wrap; }
+.flipcard { perspective:1000px; cursor:pointer; }
+.flipcard .inner { position:relative; width:100%; min-height:220px; transition:transform .5s; transform-style:preserve-3d; }
+.flipcard.flipped .inner { transform:rotateY(180deg); }
+.face { position:absolute; inset:0; backface-visibility:hidden; -webkit-backface-visibility:hidden; border-radius:14px; padding:1.4rem; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; box-shadow:0 4px 14px rgba(0,0,0,.12); }
+.face.front { background:#fff; border:2px solid var(--red); }
+.face.front .verb { font-size:1.8rem; font-weight:800; color:var(--red); }
+.face.front .hint { color:var(--grey); margin-top:.5rem; font-size:.95rem; }
+.face.back { background:var(--red); color:#fff; transform:rotateY(180deg); }
+.face.back .en { font-size:1.3rem; font-weight:700; margin-bottom:.6rem; }
+.face.back .sent { opacity:.92; }
+.empty-note { color:var(--grey); font-size:.9rem; margin-top:.4rem; }
+.feedback { font-weight:700; margin-top:.6rem; }
+.feedback.ok { color:#2e9e4f; }
+.feedback.no { color:#c0392b; }
+.feedback.sol { color:var(--grey); font-size:.9rem; font-weight:500; margin-top:.3rem; }
+.speak.inline { font-size:.85rem; margin-left:.4rem; }
+.qtype { font-size:.85rem; color:var(--grey); margin-bottom:.5rem; }
+.qtype-tag { display:inline-block; background:var(--red); color:#fff; border-radius:20px; padding:.12rem .75rem; font-size:.78rem; font-weight:700; text-transform:uppercase; letter-spacing:.4px; vertical-align:middle; }
+.qcard.results { text-align:center; border-top:5px solid var(--gold); }
+.qcard.results h3 { color:var(--red); margin-bottom:.4rem; font-size:1.4rem; }
+.qcard.results .bigscore { font-size:1.15rem; margin:.6rem 0 1rem; }
+.qcard.results .navbtns { justify-content:center; }
+@media (max-width:560px){ .flipcard .inner { min-height:190px; } .face.front .verb { font-size:1.4rem; } }</style>
+</head>
+<body>
+<div class="topbar"><a href="../index.html">← Kursübersicht</a><span class="title">💬 Modul 2: Kommunikation &amp; Gefühle</span><span>🔊 de-DE</span></div>
+<header class="hdr"><h1>💬 Kommunikation &amp; Gefühle</h1><p>Communication &amp; Feelings · 20 Wortverbindungen · B1–C1</p></header>
+<div class="container">
+  <div class="progressbox">
+    <span>Fortschritt</span>
+    <div class="bar"><div class="fill" id="progFill" style="width:0%"></div></div>
+    <span id="progPct">0%</span>
+    <button class="btn ghost" onclick="resetProg()">Zurücksetzen</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tabbtn active" data-tab="study">📚 Lernen</button>
+    <button class="tabbtn" data-tab="drill">🃏 Karten</button>
+    <button class="tabbtn" data-tab="fill">✍️ Lücken</button>
+    <button class="tabbtn" data-tab="quiz">🎯 Quiz</button>
+  </div>
+
+  <section class="panel active" id="panel-study">
+    <h2>Lernen</h2>
+    <p class="lede">Arbeite die 20 Wortverbindungen dieser Kategorie durch. Klicke eine Verbindung an, um sie zu hören.</p>
+    <div id="studyList"></div>
+  </section>
+
+  <section class="panel" id="panel-drill">
+    <h2>Karten</h2>
+    <p class="lede">Sieh die deutsche Wortverbindung und versuche die englische Bedeutung zu erinnern. Dreh die Karte um, um die Lösung zu sehen.</p>
+    <div class="progressbox"><span>Karte</span><span id="drillPos">1 / 20</span><div class="bar"><div class="fill" id="drillFill" style="width:0%"></div></div></div>
+    <div class="flipcard" id="flipcard" onclick="flip()">
+      <div class="inner">
+        <div class="face front">
+          <div class="speak" id="drillVerb"></div>
+          <div class="hint">Klicke für die Auflösung</div>
+        </div>
+        <div class="face back"><div class="en" id="drillEn"></div><div class="sent" id="drillSent"></div></div>
+      </div>
+    </div>
+    <div class="navbtns">
+      <button class="btn ghost" onclick="drillPrev()">← Zurück</button>
+      <button class="btn" onclick="drillNext()">Weiter →</button>
+    </div>
+    <p class="empty-note">Karten durchlaufen die Wortverbindungen in zufälliger Reihenfolge.</p>
+  </section>
+
+  <section class="panel" id="panel-fill">
+    <h2>Lücken füllen</h2>
+    <p class="lede">Vervollständige den Beispielsatz mit dem passenden Schlüsselwort der Wortverbindung.</p>
+    <div class="progressbox"><span>Frage</span><span id="fillPos">1 / 10</span><div class="bar"><div class="fill" id="fillFill" style="width:0%"></div></div><span>Punkte</span><span id="fillScore">0 / 0</span></div>
+    <div id="fillQ"></div>
+    <div class="navbtns"><button class="btn ghost" onclick="fillReset()">Neu mischen</button></div>
+    <p class="empty-note">10 zufällige Sätze aus dieser Kategorie. Wähle die richtige Ergänzung und klicke auf „Weiter“.</p>
+  </section>
+
+  <section class="panel" id="panel-quiz">
+    <h2>Quiz</h2>
+    <p class="lede">10 gemischte Fragetypen: Übersetzung, Bedeutung, Verbindung im Satz und Grammatik. Jede Frage ist oben beschriftet – antworte und klicke auf „Weiter“.</p>
+    <div class="progressbox"><span>Frage</span><span id="quizPos">1 / 10</span><div class="bar"><div class="fill" id="quizFill" style="width:0%"></div></div><span>Punkte</span><span id="quizScore">0 / 0</span></div>
+    <div id="quizQ"></div>
+    <div class="navbtns"><button class="btn ghost" onclick="quizReset()">Neu mischen</button></div>
+    <p class="empty-note">10 Fragen, gemischt aus allen 20 Wortverbindungen.</p>
+  </section>
+</div>
+<footer style="text-align:center;padding:1.6rem;color:var(--grey);font-size:.88rem">
+  <p>Modul 2 von 7 · Basierend auf „Deutsch lernen B1 B2 C1 | 5.000 deutsche Wortverbindungen“ (Einfach deutsch, easy deutsch.) · <a href="../index.html" style="color:var(--red)">Kursübersicht</a></p>
+</footer>
+<script>
+const VERBS = [{"v": "ein Gespräch führen", "en": "to have a conversation", "meaning": "ein Gespräch mit jemandem führen.", "example": "Wir führen ein Gespräch.", "natural": "Ich habe gestern ein langes Gespräch mit meinem Kollegen geführt – es ging hauptsächlich um das neue Projekt.", "grammar": "Nomen-Verb-Verbindung · ein Gespräch + führen · Perfekt: ich habe geführt"}, {"v": "einen Fehler machen", "en": "to make a mistake", "meaning": "etwas falsch machen.", "example": "Ich habe einen Fehler gemacht.", "natural": "Jeder macht mal einen Fehler – wichtig ist, dass du daraus lernst.", "grammar": "Nomen-Verb-Verbindung · einen Fehler + machen · Perfekt: ich habe gemacht"}, {"v": "eine Entscheidung treffen", "en": "to make a decision", "meaning": "selbst bestimmen, was als Nächstes passieren soll.", "example": "Ich treffe morgen eine Entscheidung.", "natural": "Man sollte eine Entscheidung nicht überstürzen – wäge lieber alle Vor- und Nachteile ab.", "grammar": "Nomen-Verb-Verbindung · eine Entscheidung + treffen · starkes Verb"}, {"v": "einen Termin vereinbaren", "en": "to arrange an appointment", "meaning": "einen Zeitpunkt für ein Treffen festlegen.", "example": "Ich vereinbare einen Termin.", "natural": "Können wir für nächste Woche einen Termin vereinbaren? Mir würde der Dienstag passen.", "grammar": "Nomen-Verb-Verbindung · einen Termin + vereinbaren · Perfekt: ich habe vereinbart"}, {"v": "eine Frage stellen", "en": "to ask a question", "meaning": "eine Frage formulieren und an jemanden richten.", "example": "Ich stelle dir eine Frage.", "natural": "Darf ich Ihnen eine persönliche Frage stellen? Sie müssen sie natürlich nicht beantworten.", "grammar": "Nomen-Verb-Verbindung · eine Frage + stellen · Perfekt: ich habe gestellt"}, {"v": "eine Auskunft geben", "en": "to give information", "meaning": "eine Information mitteilen.", "example": "Können Sie mir eine Auskunft geben?", "natural": "Die Dame am Schalter hat mir freundlich eine Auskunft gegeben.", "grammar": "Nomen-Verb-Verbindung · eine Auskunft + geben · Perfekt: ich habe gegeben"}, {"v": "Rücksicht nehmen", "en": "to show consideration", "meaning": "auf die Bedürfnisse anderer achten.", "example": "Nimm bitte Rücksicht auf deine Nachbarn!", "natural": "In einer WG muss man immer Rücksicht aufeinander nehmen, sonst gibt es schnell Streit.", "grammar": "Nomen-Verb-Verbindung · Rücksicht + nehmen · feste Präposition: auf + Akkusativ"}, {"v": "einen Anruf tätigen", "en": "to make a phone call", "meaning": "jemanden anrufen (formell).", "example": "Ich tätige gleich einen Anruf.", "natural": "Ich muss noch einen Anruf bei der Bank tätigen, um das Konto zu klären.", "grammar": "Nomen-Verb-Verbindung · einen Anruf + tätigen · formell"}, {"v": "eine E-Mail schreiben", "en": "to write an email", "meaning": "eine E-Mail verfassen und abschicken.", "example": "Ich schreibe dir eine E-Mail.", "natural": "Ich schreibe dir gleich eine E-Mail mit allen Details zu der Frage.", "grammar": "Nomen-Verb-Verbindung · eine E-Mail + schreiben · Perfekt: ich habe geschrieben"}, {"v": "ein Interview führen", "en": "to conduct an interview", "meaning": "ein Interview leiten und Fragen stellen.", "example": "Sie führt heute ein Interview.", "natural": "Die Journalistin führt ein Interview mit dem Bürgermeister über die Verkehrsplanung.", "grammar": "Nomen-Verb-Verbindung · ein Interview + führen · Perfekt: ich habe geführt"}, {"v": "Kontakt aufnehmen", "en": "to get in touch", "meaning": "eine Verbindung zu jemandem herstellen.", "example": "Ich nehme Kontakt mit dir auf.", "natural": "Wenn Sie Fragen haben, nehmen Sie einfach Kontakt mit uns auf – wir antworten innerhalb von 24 Stunden.", "grammar": "Nomen-Verb-Verbindung · Kontakt + aufnehmen · trennbar"}, {"v": "einen Vertrag unterschreiben", "en": "to sign a contract", "meaning": "den Vertrag mit seiner Unterschrift bestätigen.", "example": "Ich unterschreibe den Vertrag morgen.", "natural": "Bevor du den Vertrag unterschreibst, solltest du das Kleingedruckte lesen.", "grammar": "Nomen-Verb-Verbindung · einen Vertrag + unterschreiben · trennbar"}, {"v": "eine Rolle spielen", "en": "to play a role / matter", "meaning": "wichtig sein, Einfluss haben.", "example": "Das spielt für mich keine Rolle.", "natural": "Bei der Entscheidung spielte das Gehalt eine große Rolle – aber auch die Arbeitszeiten waren wichtig.", "grammar": "Nomen-Verb-Verbindung · eine Rolle + spielen · Perfekt: ich habe gespielt"}, {"v": "eine Aufgabe übernehmen", "en": "to take on a task", "meaning": "eine Aufgabe selbst übernehmen.", "example": "Ich übernehme diese Aufgabe.", "natural": "Kannst du eine Aufgabe für das Projekt übernehmen, solange ich im Urlaub bin?", "grammar": "Nomen-Verb-Verbindung · eine Aufgabe + übernehmen · starkes Verb"}, {"v": "ein Kompliment machen", "en": "to pay a compliment", "meaning": "jdm sagen, dass etwas gut ist.", "example": "Ich mache dir ein Kompliment.", "natural": "Er hat mir ein Kompliment gemacht – er fand meine Präsentation richtig stark.", "grammar": "Nomen-Verb-Verbindung · ein Kompliment + machen · Perfekt: ich habe gemacht"}, {"v": "eine Erklärung geben", "en": "to give an explanation", "meaning": "etwas verständlich erklären.", "example": "Der Lehrer gibt eine Erklärung.", "natural": "Können Sie mir eine Erklärung geben, warum die Software nicht funktioniert?", "grammar": "Nomen-Verb-Verbindung · eine Erklärung + geben · Perfekt: ich habe gegeben"}, {"v": "ein Treffen organisieren", "en": "to organize a meeting", "meaning": "ein Treffen planen und vorbereiten.", "example": "Wir organisieren ein Treffen.", "natural": "Ich organisiere nächste Woche ein Treffen mit allen Teammitgliedern.", "grammar": "Nomen-Verb-Verbindung · ein Treffen + organisieren · unregelmäßig"}, {"v": "einen Vorschlag machen", "en": "to make a suggestion", "meaning": "eine Idee vorschlagen.", "example": "Ich mache einen Vorschlag.", "natural": "Darf ich einen Vorschlag machen? Wir treffen uns besser im Café als im Büro.", "grammar": "Nomen-Verb-Verbindung · einen Vorschlag + machen · Perfekt: ich habe gemacht"}, {"v": "eine Beziehung führen / aufbauen", "en": "to have / build a relationship", "meaning": "eine Beziehung zu jemandem haben oder beginnen.", "example": "Wir führen eine gute Beziehung.", "natural": "Eine vertrauensvolle Beziehung zum Kunden aufzubauen braucht Zeit, lohnt sich aber immer.", "grammar": "Nomen-Verb-Verbindung · eine Beziehung + führen · oder + aufbauen"}, {"v": "einen Unterschied machen", "en": "to make a difference", "meaning": "einen Einfluss/eine Veränderung bewirken.", "example": "Das macht einen Unterschied.", "natural": "Wenn jeder ein bisschen spart, macht das am Ende einen großen Unterschied für das Klima.", "grammar": "Nomen-Verb-Verbindung · einen Unterschied + machen · Perfekt: ich habe gemacht"}];
+const CATID = 2;
+// =============================================================
+//  300 Deutsche Verben - module app logic
+//  Expects VERBS (array) and CATID (int) defined before this file.
+// =============================================================
+const N = VERBS.length;
+const KEY = 'gv-progress-' + CATID;
+
+const TTS = (() => {
+  const u = ('speechSynthesis' in window) ? window.speechSynthesis : null;
+  let voice = null;
+  if (u) {
+    const pick = () => {
+      const vs = u.getVoices();
+      voice = vs.find(v => v.lang === 'de-DE') || vs.find(v => v.lang && v.lang.slice(0, 2) === 'de') || null;
+    };
+    pick();
+    u.onvoiceschanged = pick;
+  }
+  return {
+    ok: !!u,
+    speak(t) {
+      if (!u) return;
+      u.cancel();
+      const x = new SpeechSynthesisUtterance(t);
+      x.lang = 'de-DE';
+      x.rate = 0.92;
+      if (voice) x.voice = voice;
+      u.speak(x);
+    }
+  };
+})();
+
+window.speak = function (t) { TTS.speak(t); };
+
+function escHtml(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function q(tag, attrs, html) {
+  const el = document.createElement(tag);
+  for (const k in attrs) el.setAttribute(k, attrs[k]);
+  if (html != null) el.innerHTML = html;
+  return el;
+}
+
+// ---------- progress ----------
+function setProg(p) {
+  p = Math.max(0, Math.min(100, Math.round(p)));
+  localStorage.setItem(KEY, p);
+  const f = document.getElementById('progFill');
+  const t = document.getElementById('progPct');
+  if (f) f.style.width = p + '%';
+  if (t) t.textContent = p + '%';
+}
+function getProg() { return parseInt(localStorage.getItem(KEY) || '0', 10); }
+function resetProg() {
+  if (confirm('Fortschritt zurücksetzen?')) {
+    localStorage.removeItem(KEY);
+    setProg(0);
+  }
+}
+setProg(getProg());
+
+// ---------- tabs ----------
+document.querySelectorAll('.tabbtn').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.tabbtn').forEach(x => x.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  document.getElementById('panel-' + b.dataset.tab).classList.add('active');
+}));
+
+// ---------- helpers ----------
+function shuffle(a) {
+  const arr = a.slice();
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// Full infinitive without the reflexive "sich/mich/dich" part
+function infinitiveOf(v) {
+  return String(v).replace(/^(sich|mich|dich)\s+/i, '');
+}
+
+// Main verb stem: infinitive minus separable prefix + reflexive + (e)n ending
+function verbRoot(vv) {
+  let s = infinitiveOf(vv);
+  const prefixes = ['zurück', 'zusammen', 'entgegen', 'vorbei', 'weiter', 'mit', 'nach', 'vor', 'aus', 'auf', 'an',
+    'ab', 'bei', 'ein', 'los', 'zu', 'teil', 'fern', 'fest'];
+  for (const p of prefixes) {
+    if (s.startsWith(p) && s.length > p.length + 3) { s = s.slice(p.length); break; }
+  }
+  let root = s.replace(/(en|ern|eln)$/, '');
+  if (root.length < 3) root = s.replace(/en$/, '');
+  if (root.length < 3) root = s;
+  return root;
+}
+
+// ---------- cloze builder (shared by Lücken & Quiz) ----------
+function clozeFor(v) {
+  const root = verbRoot(v.v);
+  if (root.length < 3) return null;
+  const re = new RegExp('\\b(' + root.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')[a-zäöüß]*\\b', 'i');
+  for (const c of [{ s: v.example, label: 'Beispiel' }, { s: v.natural, label: 'Natürlicher' }]) {
+    const m = c.s.match(re);
+    if (m) {
+      return {
+        blanked: c.s.slice(0, m.index) + '______' + c.s.slice(m.index + m[0].length),
+        original: c.s,
+        label: c.label,
+        hit: m[0]
+      };
+    }
+  }
+  return null;
+}
+
+// 4 full-infinitive options (1 correct + 3 distractors)
+function verbOptions(correctVerb) {
+  const seen = new Set([infinitiveOf(correctVerb).toLowerCase()]);
+  const opts = [correctVerb];
+  const pool = shuffle(VERBS.map(v => v.v));
+  for (const w of pool) {
+    const key = infinitiveOf(w).toLowerCase();
+    if (!seen.has(key)) { seen.add(key); opts.push(w); }
+    if (opts.length === 4) break;
+  }
+  while (opts.length < 4) opts.push(correctVerb);
+  return shuffle(opts);
+}
+
+// simple grammar category for the Grammatik question type
+function gramTag(v) {
+  const g = (v.grammar || '').toLowerCase();
+  if (g.indexOf('trennbar') > -1) return 'trennbar';
+  if (g.indexOf('reflexiv') > -1) return 'reflexiv';
+  if (g.indexOf('modalverb') > -1) return 'Modalverb';
+  if (g.indexOf('hilfsverb') > -1) return 'Hilfsverb';
+  if (g.indexOf('starkes verb') > -1) return 'starkes Verb';
+  return 'regelmäßig';
+}
+
+// ---------- study ----------
+(function () {
+  const list = document.getElementById('studyList');
+  VERBS.forEach((v, i) => {
+    const tags = escHtml(v.grammar).split('·').map(g => `<span class="gramtag">${g.trim()}</span>`).join('');
+    const card = q('div', { className: 'qcard' }, `
+      <div class="reveal" style="margin:0">
+        <div class="g"><span class="speak" data-speak="verb">${escHtml(v.v)}</span>
+          <span class="en">– ${escHtml(v.en)}</span> ${tags}
+          <span style="float:right;color:var(--grey);font-size:.8rem">${i + 1} / ${N}</span>
+        </div>
+        <div style="margin-top:.6rem"><em>${escHtml(v.meaning)}</em></div>
+        <div style="margin-top:.5rem"><b>Beispiel:</b> <span class="speak" data-speak="example">${escHtml(v.example)}</span></div>
+        <div style="margin-top:.35rem;color:var(--grey)"><b>Natürlicher:</b> <span class="speak" data-speak="natural">${escHtml(v.natural)}</span></div>
+      </div>`);
+    card.querySelectorAll('.speak[data-speak]').forEach(sp => {
+      sp.addEventListener('click', e => {
+        e.stopPropagation();
+        const kind = sp.dataset.speak;
+        TTS.speak(kind === 'verb' ? v.v : kind === 'example' ? v.example : v.natural);
+      });
+    });
+    list.appendChild(card);
+  });
+})();
+
+// ---------- drill (flashcards) ----------
+let drillOrder = shuffle([...Array(N).keys()]);
+let drillIdx = 0;
+
+function setDrill() {
+  const v = VERBS[drillOrder[drillIdx]];
+  const card = document.getElementById('flipcard');
+  card.classList.remove('flipped');
+  const verbEl = document.getElementById('drillVerb');
+  verbEl.className = 'verb speak';
+  verbEl.textContent = v.v;
+  verbEl.onclick = (e) => { e.stopPropagation(); TTS.speak(v.v); };
+  document.getElementById('drillEn').textContent = v.en + ' · ' + v.meaning;
+  document.getElementById('drillSent').innerHTML =
+    '<b>Beispiel:</b> ' + escHtml(v.example) + '<br><b>Natürlicher:</b> ' + escHtml(v.natural);
+  document.getElementById('drillPos').textContent = (drillIdx + 1) + ' / ' + N;
+  document.getElementById('drillFill').style.width = ((drillIdx + 1) / N * 100) + '%';
+}
+function flip() { document.getElementById('flipcard').classList.toggle('flipped'); }
+function drillNext() {
+  if (drillIdx === N - 1) {
+    drillOrder = shuffle([...Array(N).keys()]);
+    drillIdx = 0;
+  } else {
+    drillIdx++;
+  }
+  setDrill();
+  setProg(getProg() + Math.max(1, Math.round(100 / N)));
+}
+function drillPrev() {
+  if (drillIdx === 0) { setDrill(); return; }
+  drillIdx--;
+  setDrill();
+}
+setDrill();
+
+// =============================================================
+//  LÜCKEN (Welches Verb passt?)
+// =============================================================
+const ROUND_LEN = 10;
+let fillItems = [], fillIdx = 0, fillScore = 0, fillAnswered = 0;
+
+function fillScoreElt() { return document.getElementById('fillScore'); }
+
+function genFill() {
+  fillItems = shuffle(VERBS.map((v, i) => ({ v, i }))).slice(0, ROUND_LEN);
+  fillIdx = 0; fillScore = 0; fillAnswered = 0;
+  fillShow();
+}
+
+function fillProgress() {
+  document.getElementById('fillPos').textContent = (fillIdx + 1) + ' / ' + ROUND_LEN;
+  document.getElementById('fillFill').style.width = ((fillIdx + 1) / ROUND_LEN * 100) + '%';
+  if (fillScoreElt()) fillScoreElt().textContent = fillScore + ' / ' + fillAnswered + ' richtig';
+}
+
+function fillShow() {
+  fillProgress();
+  const it = fillItems[fillIdx];
+  const v = VERBS[it.i];
+  const cloze = clozeFor(v);
+  const opts = verbOptions(v.v);
+
+  let inner;
+  if (cloze) {
+    inner = `
+      <p class="qtype">Welches Verb passt in den Satz? <span class="qtype-tag">${cloze.label}</span></p>
+      <div class="q"><em>„${escHtml(cloze.blanked)}“</em>
+        <span class="speak inline" data-say="${escHtml(cloze.original)}">🔊 anhören</span></div>
+      <div class="opts">${opts.map(o => `<button class="opt" data-ok="${o === v.v ? '1' : '0'}">${escHtml(o)}</button>`).join('')}</div>`;
+  } else {
+    // fallback: meaning-based (if no sentence could be blanked)
+    inner = `
+      <p class="qtype">Welches Verb passt zur Bedeutung?</p>
+      <div class="q"><em>„${escHtml(v.meaning)}“</em></div>
+      <div class="opts">${opts.map(o => `<button class="opt" data-ok="${o === v.v ? '1' : '0'}">${escHtml(o)}</button>`).join('')}</div>`;
+  }
+  const box = q('div', { className: 'qcard' }, inner + `<div id="fillFb"></div>`);
+  box.querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => fillPick(b, v)));
+  box.querySelectorAll('.speak[data-say]').forEach(sp => sp.addEventListener('click', e => { e.stopPropagation(); TTS.speak(sp.dataset.say); }));
+  const host = document.getElementById('fillQ');
+  host.innerHTML = '';
+  host.appendChild(box);
+}
+
+function fillPick(btn, v) {
+  if (btn.disabled) return;
+  boxdisabled('#fillQ .opt');
+  const ok = btn.dataset.ok === '1';
+  btn.classList.add(ok ? 'correct' : 'wrong');
+  fillAnswered++;
+  if (ok) fillScore++;
+
+  const cloze = clozeFor(v);
+  const fb = document.getElementById('fillFb');
+  const sol = cloze
+    ? `Die Lösung: <span class="speak" data-sol="${escHtml(cloze.original)}">„${escHtml(cloze.original)}“</span>`
+    : `Die Lösung: <b>${escHtml(v.v)}</b>`;
+
+  fb.innerHTML = (ok
+    ? `<div class="feedback ok">Richtig! 🎉</div>`
+    : `<div class="feedback no">Nicht ganz – <b>${escHtml(v.v)}</b> (${escHtml(v.en)})</div>`)
+    + `<div class="feedback sol">${sol}</div>`;
+
+  fb.querySelectorAll('.speak').forEach(sp => sp.addEventListener('click', e => { e.stopPropagation(); TTS.speak(sp.dataset.sol); }));
+
+  fillProgress();
+  setProg(getProg() + 1);
+
+  const btnWrap = q('div', { className: 'navbtns' },
+    fillIdx < ROUND_LEN - 1
+      ? `<button class="btn">Weiter →</button>`
+      : `<button class="btn">Ergebnis anzeigen 🏁</button>`);
+  btnWrap.querySelector('button').addEventListener('click', () => {
+    if (fillIdx < ROUND_LEN - 1) { fillIdx++; fillShow(); }
+    else fillResult();
+  });
+  fb.appendChild(btnWrap);
+}
+
+function fillResult() {
+  const host = document.getElementById('fillQ');
+  host.innerHTML = '';
+  const card = q('div', { className: 'qcard results' }, `
+    <h3>🏁 Runde geschafft</h3>
+    <p class="bigscore">Du hast <b>${fillScore}</b> von <b>${ROUND_LEN}</b> Sätzen richtig ergänzt.</p>
+    <div class="navbtns">
+      <button class="btn" id="fillAgain">Nochmal spielen</button>
+      <button class="btn ghost" onclick="document.querySelector('[data-tab=drill]').click()">Zu den Karten</button>
+    </div>`);
+  card.querySelector('#fillAgain').addEventListener('click', genFill);
+  host.appendChild(card);
+  fillProgress();
+}
+function boxdisabled(sel) { [...document.querySelectorAll(sel)].forEach(o => o.disabled = true); }
+function fillReset() { genFill(); }
+genFill();
+
+// =============================================================
+//  QUIZ
+// =============================================================
+let quizItems = [], quizIdx = 0, quizScore = 0, quizAnswered = 0;
+
+function quizScoreElt() { return document.getElementById('quizScore'); }
+
+function genQuiz() {
+  quizItems = shuffle(VERBS.map((v, i) => ({ v, i }))).slice(0, ROUND_LEN);
+  quizIdx = 0; quizScore = 0; quizAnswered = 0;
+  quizShow();
+}
+
+function quizProgress() {
+  document.getElementById('quizPos').textContent = (quizIdx + 1) + ' / ' + ROUND_LEN;
+  document.getElementById('quizFill').style.width = ((quizIdx + 1) / ROUND_LEN * 100) + '%';
+  if (quizScoreElt()) quizScoreElt().textContent = quizScore + ' / ' + quizAnswered + ' richtig';
+}
+
+function quizShow() {
+  quizProgress();
+  const it = quizItems[quizIdx];
+  const v = VERBS[it.i];
+
+  // pick the question type for this item (fixed per item -> predictable)
+  const tpl = (it.i * 7 + quizIdx) % 4;
+  const pool = shuffle(VERBS.filter(x => x.i !== it.i));
+
+  let badge, qhtml, opts, correct = v.v;
+
+  if (tpl === 0) {            // Englisch -> Deutsch
+    badge = 'Englisch → Deutsch';
+    qhtml = `Wie heißt dieses Verb auf Deutsch? <span class="speak inline" data-say="${escHtml(v.v)}">🔊 anhören</span>`;
+    opts = verbOptions(v.v);
+  } else if (tpl === 1) {     // Deutsch -> Englisch
+    badge = 'Deutsch → Englisch';
+    correct = v.en;
+    qhtml = `Was bedeutet „<b>${escHtml(v.v)}</b>“?`;
+    const seen = new Set([v.en]); const o = [v.en];
+    for (const d of pool) { if (!seen.has(d.en.toLowerCase())) { seen.add(d.en.toLowerCase()); o.push(d.en); } if (o.length === 4) break; }
+    opts = shuffle(o);
+  } else if (tpl === 2) {     // Satz -> Welches Verb?
+    badge = 'Im Satz';
+    const cloze = clozeFor(v);
+    correct = v.v;
+    if (cloze) {
+      qhtml = `Welches Verb passt in den Satz? <span class="speak inline" data-say="${escHtml(cloze.original)}">🔊 anhören</span>
+        <div class="q" style="margin-top:.6rem"><em>„${escHtml(cloze.blanked)}“</em></div>`;
+    } else {
+      qhtml = `Welches Verb hat diese Bedeutung? „<em>${escHtml(v.meaning)}</em>“`;
+    }
+    opts = verbOptions(v.v);
+  } else {                    // Grammatik
+    badge = 'Grammatik';
+    correct = gramTag(v);
+    const tags = ['trennbar', 'reflexiv', 'Modalverb', 'Hilfsverb', 'starkes Verb', 'regelmäßig'];
+    opts = shuffle([correct].concat(tags.filter(t => t !== correct)).slice(0, 3));
+    qhtml = `Zu welchem Typ gehört „<b>${escHtml(v.v)}</b>“?`;
+  }
+
+  const box = q('div', { className: 'qcard' }, `
+    <p class="qtype"><span class="qtype-tag">${badge}</span></p>
+    <div class="q">${qhtml}</div>
+    <div class="opts">${opts.map(o => `<button class="opt" data-v="${escHtml(String(o)).replace(/"/g, '&quot;')}" data-ok="${String(o) === String(correct) ? '1' : '0'}">${escHtml(o)}</button>`).join('')}</div>
+    <div id="quizFb"></div>`);
+  box.querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => quizPick(b, String(correct), v)));
+  box.querySelectorAll('.speak[data-say]').forEach(sp => sp.addEventListener('click', e => { e.stopPropagation(); TTS.speak(sp.dataset.say); }));
+  const host = document.getElementById('quizQ');
+  host.innerHTML = '';
+  host.appendChild(box);
+}
+
+function quizPick(btn, correct, v) {
+  if (btn.disabled) return;
+  boxdisabled('#quizQ .opt');
+  const ok = btn.dataset.ok === '1';
+  btn.classList.add(ok ? 'correct' : 'wrong');
+  quizAnswered++;
+  if (ok) quizScore++;
+
+  const fb = document.getElementById('quizFb');
+  let extra = '';
+  if (btn.dataset.ok !== '1') extra = `<div class="feedback sol">Antwort: <b>${escHtml(correct)}</b></div>`;
+  fb.innerHTML = (ok
+    ? `<div class="feedback ok">Richtig! 🎉</div>`
+    : `<div class="feedback no">Leider falsch.</div>`)
+    + extra;
+
+  quizProgress();
+  setProg(getProg() + 1);
+
+  const btnWrap = q('div', { className: 'navbtns' },
+    quizIdx < ROUND_LEN - 1
+      ? `<button class="btn">Weiter →</button>`
+      : `<button class="btn">Ergebnis anzeigen 🏁</button>`);
+  btnWrap.querySelector('button').addEventListener('click', () => {
+    if (quizIdx < ROUND_LEN - 1) { quizIdx++; quizShow(); }
+    else quizResult();
+  });
+  fb.appendChild(btnWrap);
+}
+
+function quizResult() {
+  const host = document.getElementById('quizQ');
+  host.innerHTML = '';
+  const card = q('div', { className: 'qcard results' }, `
+    <h3>🏁 Quiz geschafft</h3>
+    <p class="bigscore">Du hast <b>${quizScore}</b> von <b>${ROUND_LEN}</b> Fragen richtig beantwortet.</p>
+    <div class="navbtns">
+      <button class="btn" id="quizAgain">Nochmal spielen</button>
+      <button class="btn ghost" onclick="document.querySelector('[data-tab=drill]').click()">Zu den Karten</button>
+    </div>`);
+  card.querySelector('#quizAgain').addEventListener('click', genQuiz);
+  host.appendChild(card);
+  quizProgress();
+}
+function quizReset() { genQuiz(); }
+genQuiz();
+</script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+[
+  {
+   "v": "eine Frage stellen",
+   "en": "to ask a question",
+   "meaning": "eine Frage formulieren und direkt an jemanden richten, der antworten soll.",
+   "example": "Ich stelle dir eine Frage.",
+   "natural": "Darf ich dir eine persönliche Frage stellen – oder bist du gerade zu beschäftigt? Es geht nur um einen kleinen Ratschlag.",
+   "grammar": "Nomen-Verb-Verbindung · eine Frage + stellen · Perfekt: ich habe gestellt"
+  },
+  {
+   "v": "eine Antwort geben",
+   "en": "to give an answer",
+   "meaning": "auf eine Frage reagieren und die gewünschte Information mitteilen.",
+   "example": "Gib mir bitte eine Antwort.",
+   "natural": "Er hat mir leider noch keine Antwort gegeben, obwohl ich ihm die Frage schon vor einer Woche geschickt habe.",
+   "grammar": "Nomen-Verb-Verbindung · eine Antwort + geben · unregelmäßig (gab/gegeben)"
+  },
+  {
+   "v": "ein Kompliment machen",
+   "en": "to pay a compliment",
+   "meaning": "jemandem sagen, dass er etwas besonders gut macht.",
+   "example": "Ich mache dir ein Kompliment.",
+   "natural": "Ich möchte dir ein Kompliment machen: Deine Präsentation war gestern wirklich die beste in der ganzen Runde.",
+   "grammar": "Nomen-Verb-Verbindung · ein Kompliment + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "einen Gefallen tun",
+   "en": "to do someone a favour",
+   "meaning": "jemandem aus Freundlichkeit helfen.",
+   "example": "Kannst du mir einen Gefallen tun?",
+   "natural": "Kannst du mir einen kleinen Gefallen tun? Sei bitte so nett und überreiche das Paket dem Chef persönlich.",
+   "grammar": "Nomen-Verb-Verbindung · einen Gefallen + tun · unregelmäßig (tat/getan)"
+  },
+  {
+   "v": "Kontakt aufnehmen",
+   "en": "to get in touch",
+   "meaning": "mit jemandem Verbindung aufbauen.",
+   "example": "Ich nehme morgen Kontakt mit dir auf.",
+   "natural": "Wenn Sie Interesse haben, nehmen Sie einfach Kontakt mit uns auf – Sie erreichen uns auch am Wochenende per E-Mail.",
+   "grammar": "Nomen-Verb-Verbindung · Kontakt + aufnehmen · trennbares Verb"
+  },
+  {
+   "v": "sich bei jemandem für etwas bedanken",
+   "en": "to thank someone for something",
+   "meaning": "seinen Dank für eine Handlung ausdrücken.",
+   "example": "Ich bedanke mich bei dir für die Einladung.",
+   "natural": "Ich möchte mich bei dir für die tolle Unterstützung bedanken – ohne deine Hilfe hätte ich das nie geschafft.",
+   "grammar": "Reflexive Nomen-Verb-Verbindung · sich + bedanken + bei (Dativ) + für (Akkusativ)"
+  },
+  {
+   "v": "sich entschuldigen",
+   "en": "to apologise",
+   "meaning": "um Verzeihung bitten.",
+   "example": "Ich entschuldige mich bei dir.",
+   "natural": "Ich möchte mich bei dir entschuldigen – ich hätte gestern nicht so unfreundlich antworten dürfen.",
+   "grammar": "Reflexive Verbindung · sich + entschuldigen + bei (Dativ) · Perfekt: ich habe mich entschuldigt"
+  },
+  {
+   "v": "Rücksicht nehmen",
+   "en": "to show consideration",
+   "meaning": "auf die Wünsche und Bedürfnisse anderer achten.",
+   "example": "Wir müssen Rücksicht auf unsere Nachbarn nehmen.",
+   "natural": "In einer Wohngemeinschaft muss jeder Rücksicht auf die anderen nehmen, sonst gibt es schnell unnötigen Streit.",
+   "grammar": "Nomen-Verb-Verbindung · Rücksicht + nehmen + auf (Akkusativ)"
+  },
+  {
+   "v": "eine Beziehung aufbauen",
+   "en": "to build a relationship",
+   "meaning": "eine Partnerschaft oder Bekanntschaft entwickeln.",
+   "example": "Wir bauen langsam eine Beziehung auf.",
+   "natural": "Nach dem ersten Kennenlernen haben wir über gemeinsame Hobbys eine gute Freundschaft aufgebaut.",
+   "grammar": "Nomen-Verb-Verbindung · eine Beziehung + aufbauen · trennbares Verb"
+  },
+  {
+   "v": "einen Vertrag unterschreiben",
+   "en": "to sign a contract",
+   "meaning": "durch Unterschrift gültig machen.",
+   "example": "Ich unterschreibe den Vertrag.",
+   "natural": "Bevor du den Vertrag unterschreibst, solltest du das Kleingedruckte genau lesen – sonst könnte es Überraschungen geben.",
+   "grammar": "Nomen-Verb-Verbindung · einen Vertrag + unterschreiben · trennbares Verb"
+  },
+  {
+   "v": "eine Einladung annehmen",
+   "en": "to accept an invitation",
+   "meaning": "die Einladung als gültig bestätigen und zusagen.",
+   "example": "Ich nehme deine Einladung gerne an.",
+   "natural": "Vielen Dank für die Einladung zur Hochzeit – ich nehme sie sehr gerne an und komme mit meinem Partner.",
+   "grammar": "Nomen-Verb-Verbindung · eine Einladung + annehmen · unregelmäßig (nahm/genommen)"
+  },
+  {
+   "v": "einen Abschied nehmen",
+   "en": "to say goodbye",
+   "meaning": "sich von jemandem verabschieden.",
+   "example": "Wir nehmen heute Abschied von unserer Gruppe.",
+   "natural": "Es fällt mir schwer, nach so tollen Wochen Abschied von allen Teilnehmern zu nehmen – aber wir schreiben uns weiter.",
+   "grammar": "Nomen-Verb-Verbindung · Abschied + nehmen + von (Dativ)"
+  },
+  {
+   "v": "eine Ausnahme machen",
+   "en": "to make an exception",
+   "meaning": "für einen Sonderfall von der Regel abweichen.",
+   "example": "Wir machen heute eine Ausnahme.",
+   "natural": "Eigentlich schließt die Küche um 21 Uhr, aber für eure Gruppe machen wir heute eine Ausnahme.",
+   "grammar": "Nomen-Verb-Verbindung · eine Ausnahme + machen · Perfekt: ich habe gemacht"
+  },
+  {
+   "v": "im Stau stehen",
+   "en": "to be stuck in traffic",
+   "meaning": "mit dem Auto im Verkehr steckenbleiben.",
+   "example": "Wir stehen im Stau.",
+   "natural": "Wir stehen seit einer halben Stunde im Stau auf der Autobahn – wir kommen leider erst später zum Treffen.",
+   "grammar": "Nomen-Verb-Verbindung · im Stau + stehen · feste Präposition: im (in + dem)"
+  },
+  {
+   "v": "einen Termin vereinbaren",
+   "en": "to make an appointment",
+   "meaning": "einen Zeitpunkt für ein Treffen festlegen.",
+   "example": "Ich möchte einen Termin vereinbaren.",
+   "natural": "Können wir bitte einen Termin vereinbaren? Mir passt der Donnerstag, weil ich danach keine weiteren Meetings habe.",
+   "grammar": "Nomen-Verb-Verbindung · einen Termin + vereinbaren · trennbare Präposition"
+  },
+  {
+   "v": "ein Rätsel lösen",
+   "en": "to solve a riddle / puzzle",
+   "meaning": "die Lösung einer Frage oder Aufgabe finden.",
+   "example": "Ich löse das Rätsel.",
+   "natural": "Mit ein bisschen Geduld können wir das Rätsel lösen – lesen wir den Hinweis einfach noch einmal in Ruhe.",
+   "grammar": "Nomen-Verb-Verbindung · ein Rätsel + lösen · Perfekt: ich habe gelöst"
+  },
+  {
+   "v": "in Bewegung kommen",
+   "en": "to get moving",
+   "meaning": "aktiv werden, anfangen sich zu bewegen.",
+   "example": "Wir kommen endlich in Bewegung.",
+   "natural": "Nach der langen Mittagspause sollten wir langsam wieder in Bewegung kommen, sonst schlafen wir gleich ein.",
+   "grammar": "Nomen-Verb-Verbindung · in Bewegung + kommen · feste Präposition: in + Akkusativ"
+  },
+  {
+   "v": "eine Frage offenlassen",
+   "en": "to leave a question open",
+   "meaning": "eine Frage zunächst nicht beantworten.",
+   "example": "Wir lassen die Frage noch offen.",
+   "natural": "Wir müssen die Preis-Frage noch offenlassen und in der nächsten Sitzung zusammen mit der Leitung entscheiden.",
+   "grammar": "Nomen-Verb-Verbindung · eine Frage + offenlassen · trennbar, Perfekt: ich habe offengelassen"
+  },
+  {
+   "v": "zur Frage stehen",
+   "en": "to face up to a question",
+   "meaning": "sich einer Frage stellen und dazu offen Stellung beziehen.",
+   "example": "Ich stehe zu deiner Frage.",
+   "natural": "Wir stehen zu der Frage der Kosten – auch wenn sie unangenehm ist, müssen wir sie ehrlich beantworten.",
+   "grammar": "Nomen-Verb-Verbindung · zu einer Frage + stehen · feste Präposition: zu + Dativ"
+  },
+  {
+   "v": "einen persönlichen Bezug herstellen",
+   "en": "to make a personal connection",
+   "meaning": "endlich eine persönliche Verbindung zum Thema schaffen.",
+   "example": "Ich stelle einen Bezug zum Alltag her.",
+   "natural": "Bei der Präsentation hat er schnell einen persönlichen Bezug zu unseren Erfahrungen hergestellt – das Publikum war sofort dabei.",
+   "grammar": "Nomen-Verb-Verbindung · einen Bezug + herstellen · trennbares Verb"
+  }
+]

@@ -1,0 +1,114 @@
+[
+ {
+  "v": "eine Frage stellen",
+  "en": "to ask a question",
+  "meaning": "eine Frage formulieren und an jemanden richten.",
+  "example": "Ich stelle dir eine Frage.",
+  "natural": "Darf ich dir eine Frage stellen – oder sind Sie gerade in Eile?",
+  "grammar": "Nomen-Verb-Verbindung · eine Frage + stellen"
+ },
+ {
+  "v": "eine Antwort geben",
+  "en": "to give an answer",
+  "meaning": "auf eine Frage reagieren und eine Antwort formulieren.",
+  "example": "Gib mir bitte eine Antwort!",
+  "natural": "Er hat mir noch keine Antwort gegeben, obwohl ich schon Tage auf seine Nachricht warte.",
+  "grammar": "Nomen-Verb-Verbindung · eine Antwort + geben"
+ },
+ {
+  "v": "eine Entscheidung treffen",
+  "en": "to make a decision",
+  "meaning": "selbst bestimmen, was als Nächstes passieren soll.",
+  "example": "Ich muss heute eine Entscheidung treffen.",
+  "natural": "Man sollte eine Entscheidung nicht überstürzen – wäge lieber alle Vor- und Nachteile ab.",
+  "grammar": "Nomen-Verb-Verbindung · eine Entscheidung + treffen"
+ },
+ {
+  "v": "einen Fehler machen",
+  "en": "to make a mistake",
+  "meaning": "etwas falsch machen.",
+  "example": "Ich habe einen Fehler gemacht.",
+  "natural": "Jeder macht mal einen Fehler – wichtig ist, dass du die Ursache erkennst.",
+  "grammar": "Nomen-Verb-Verbindung · einen Fehler + machen"
+ },
+ {
+  "v": "ein Gespräch führen",
+  "en": "to have a conversation",
+  "meaning": "ein Gespräch mit jemandem führen.",
+  "example": "Wir führen ein Gespräch.",
+  "natural": "Ich habe gestern ein langes Gespräch mit meiner Kollegin geführt – wir haben endlich alle Details geklärt.",
+  "grammar": "Nomen-Verb-Verbindung · ein Gespräch + führen"
+ },
+ {
+  "v": "Kontakt aufnehmen",
+  "en": "to get in touch",
+  "meaning": "eine Verbindung zu jemandem herstellen.",
+  "example": "Ich nehme Kontakt mit dir auf.",
+  "natural": "Wenn Sie Fragen haben, nehmen Sie einfach Kontakt mit unserem Team auf.",
+  "grammar": "Nomen-Verb-Verbindung · Kontakt + aufnehmen (trennbar)"
+ },
+ {
+  "v": "einen Termin vereinbaren",
+  "en": "to arrange an appointment",
+  "meaning": "einen Termin festlegen.",
+  "example": "Ich möchte einen Termin vereinbaren.",
+  "natural": "Können wir für nächste Woche einen Termin vereinbaren? Mir würde der Donnerstag passen.",
+  "grammar": "Nomen-Verb-Verbindung · einen Termin + vereinbaren"
+ },
+ {
+  "v": "eine Aufgabe übernehmen",
+  "en": "to take on a task",
+  "meaning": "eine Aufgabe selbst übernehmen.",
+  "example": "Ich übernehme diese Aufgabe.",
+  "natural": "Kannst du die Aufgabe übernehmen, während ich im Urlaub bin?",
+  "grammar": "Nomen-Verb-Verbindung · eine Aufgabe + übernehmen"
+ },
+ {
+  "v": "einen Vertrag unterschreiben",
+  "en": "to sign a contract",
+  "meaning": "den Vertrag mit seiner Unterschrift bestätigen.",
+  "example": "Ich unterschreibe den Vertrag.",
+  "natural": "Bevor du den Vertrag unterschreibst, lies bitte das Kleingedruckte.",
+  "grammar": "Nomen-Verb-Verbindung · einen Vertrag + unterschreiben (trennbar)"
+ },
+ {
+  "v": "einen Spaziergang machen",
+  "en": "to go for a walk",
+  "meaning": "draußen spazieren gehen.",
+  "example": "Ich mache einen Spaziergang.",
+  "natural": "Nach dem langen Bürotag mache ich immer einen Spaziergang – das hilft mir, den Kopf frei zu bekommen.",
+  "grammar": "Nomen-Verb-Verbindung · einen Spaziergang + machen"
+ },
+ {
+  "v": "Sport treiben",
+  "en": "to do sports",
+  "meaning": "Sport betreiben.",
+  "example": "Ich treibe zweimal pro Woche Sport.",
+  "natural": "Um fit zu bleiben, treibe ich am Wochenende Sport – Joggen oder Schwimmen.",
+  "grammar": "Nomen-Verb-Verbindung · Sport + treiben"
+ },
+ {
+  "v": "eine Überlegung anstellen",
+  "en": "to make a consideration",
+  "meaning": "über etwas nachdenken.",
+  "example": "Ich stelle eine Überlegung an.",
+  "natural": "Bevor wir die Reise buchen, sollten wir eine genauere Überlegung anstellen.",
+  "grammar": "Nomen-Verb-Verbindung · eine Überlegung + anstellen (trennbar)"
+ },
+ {
+  "v": "eine Rolle spielen",
+  "en": "to play a role",
+  "meaning": "wichtig sein, Einfluss haben.",
+  "example": "Das spielt keine Rolle.",
+  "natural": "Bei der Entscheidung hat das Gehalt eine große Rolle gespielt.",
+  "grammar": "Nomen-Verb-Verbindung · eine Rolle + spielen"
+ },
+ {
+  "v": "Rücksicht nehmen",
+  "en": "to show consideration",
+  "meaning": "auf andere achten.",
+  "example": "Nimm Rücksicht auf deine Nachbarn!",
+  "natural": "In einer WG muss man aufeinander Rücksicht nehmen.",
+  "grammar": "Nomen-Verb-Verbindung · Rücksicht + nehmen"
+ }
+]
